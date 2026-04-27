@@ -1,13 +1,19 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Sparkles, Loader2, Pizza as PizzaIcon } from "lucide-react"
+import { Sparkles, Loader2, Pizza as PizzaIcon, Plus } from "lucide-react"
 import { generateCustomPizza, type CustomPizza } from "../services/ai"
+import { useOrderStore } from "../store/orderStore"
+import { useNavigate } from "react"
+import { toast } from "sonner"
 
 export default function PizzaLab() {
   const [preferences, setPreferences] = useState("")
   const [isGenerating, setIsGenerating] = useState(false)
   const [generatedPizza, setGeneratedPizza] = useState<CustomPizza | null>(null)
   const [error, setError] = useState("")
+  
+  const { addToCart } = useOrderStore()
+  const navigate = useNavigate()
 
   const handleGenerate = async () => {
     if (!preferences.trim()) {
@@ -30,8 +36,20 @@ export default function PizzaLab() {
   }
 
   const handleOrderCustom = () => {
-    // This will connect to the shopping cart / Supabase orders later
-    alert(`Added ${generatedPizza?.name} to your cart for $${generatedPizza?.price}!`)
+    if (generatedPizza) {
+      addToCart({
+        name: generatedPizza.name,
+        price: generatedPizza.price
+      })
+      toast.success(`${generatedPizza.name} added to cart!`)
+      setGeneratedPizza(null)
+      setPreferences("")
+    }
+  }
+
+  const handleOrderClassic = (item: {name: string, price: number}) => {
+    addToCart(item)
+    toast.success(`${item.name} added to cart!`)
   }
 
   return (
@@ -53,12 +71,20 @@ export default function PizzaLab() {
               { name: "Diavola Spicy", desc: "Spicy salami, chili flakes, mozzarella, hot honey", price: 19.99 },
               { name: "Truffle Mushroom", desc: "Wild mushrooms, truffle cream, fontina, thyme", price: 21.99 }
             ].map(item => (
-              <div key={item.name} className="flex justify-between items-center pb-4 border-b last:border-0 last:pb-0">
-                <div>
+              <div key={item.name} className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b last:border-0 last:pb-0 gap-4">
+                <div className="flex-1">
                   <h3 className="font-semibold text-lg">{item.name}</h3>
                   <p className="text-sm text-muted-foreground">{item.desc}</p>
                 </div>
-                <div className="text-lg font-bold">${item.price}</div>
+                <div className="flex items-center gap-4 shrink-0">
+                  <div className="text-lg font-bold">${item.price}</div>
+                  <button 
+                    onClick={() => handleOrderClassic(item)}
+                    className="p-2 bg-secondary rounded-full hover:bg-primary hover:text-white transition-colors"
+                  >
+                    <Plus className="w-5 h-5" />
+                  </button>
+                </div>
               </div>
             ))}
           </div>

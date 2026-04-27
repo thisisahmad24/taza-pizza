@@ -1,9 +1,14 @@
-import { Link } from "react-router-dom"
-import { Pizza, Menu, X } from "lucide-react"
+import { Link, useNavigate } from "react-router-dom"
+import { Pizza, Menu, X, ShoppingBag } from "lucide-react"
 import { useState } from "react"
+import { useOrderStore } from "../../store/orderStore"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const { cart } = useOrderStore()
+  const navigate = useNavigate()
+  
+  const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0)
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -24,26 +29,48 @@ export default function Navbar() {
               </span>
             </Link>
           </div>
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  to={link.path}
-                  className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                >
-                  {link.name}
-                </Link>
-              ))}
+          <div className="hidden md:flex items-center space-x-8 ml-10">
+            {navLinks.map((link) => (
               <Link
-                to="/lab"
-                className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-full text-sm font-medium transition-all shadow-md hover:shadow-lg"
+                key={link.name}
+                to={link.path}
+                className="text-foreground/80 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors"
               >
-                Order Now
+                {link.name}
               </Link>
-            </div>
+            ))}
+            
+            <button 
+              onClick={() => navigate('/checkout')}
+              className="relative p-2 text-foreground hover:text-primary transition-colors"
+            >
+              <ShoppingBag className="h-6 w-6" />
+              {cartCount > 0 && (
+                <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full -translate-y-1/4 translate-x-1/4">
+                  {cartCount}
+                </span>
+              )}
+            </button>
+
+            <Link
+              to="/lab"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-full text-sm font-medium transition-all shadow-md hover:shadow-lg"
+            >
+              Order Now
+            </Link>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex md:hidden items-center gap-4">
+            <button 
+              onClick={() => navigate('/checkout')}
+              className="relative p-2 text-foreground hover:text-primary transition-colors"
+            >
+              <ShoppingBag className="h-6 w-6" />
+              {cartCount > 0 && (
+                <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full -translate-y-1/4 translate-x-1/4">
+                  {cartCount}
+                </span>
+              )}
+            </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center rounded-md p-2 text-foreground hover:bg-accent hover:text-accent-foreground focus:outline-none"
