@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import { useOrderStore } from "../store/orderStore"
 import { getWeatherImpact, getRouteBaseTime } from "../services/delivery"
-import { MapPin, Clock, CloudRain, CheckCircle2, Loader2, ArrowRight } from "lucide-react"
+import { getActiveDiscount, type DiscountEvent } from "../lib/discounts"
+import { MapPin, Clock, CloudRain, CheckCircle2, Loader2, ArrowRight, Tag } from "lucide-react"
 
 export default function Checkout() {
   const { cart, placeOrder } = useOrderStore()
@@ -11,8 +12,12 @@ export default function Checkout() {
   const [weatherCondition, setWeatherCondition] = useState("Clear")
   const [baseTime, setBaseTime] = useState(0)
   const [isPlaced, setIsPlaced] = useState(false)
+  const [activeDiscount, setActiveDiscount] = useState<DiscountEvent | null>(null)
   
-  const totalPrice = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
+  const rawTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
+  const discountAmount = activeDiscount ? (rawTotal * activeDiscount.discountPercentage) / 100 : 0
+  const finalPrice = rawTotal - discountAmount
+  
   const totalEta = 15 + baseTime + weatherDelay // 15 mins prep time
 
   useEffect(() => {
@@ -23,6 +28,9 @@ export default function Checkout() {
       setWeatherCondition(weather.condition)
     }
     fetchWeather()
+    
+    // Check for active cultural discounts
+    setActiveDiscount(getActiveDiscount())
   }, [])
 
   const handleCalculateRoute = async () => {
@@ -153,9 +161,26 @@ export default function Checkout() {
             </div>
             
             <div className="pt-4 border-t mb-8">
-              <div className="flex justify-between items-center text-xl">
+              <div className="flex justify-between items-center text-muted-foreground mb-2">
+                <span>Subtotal</span>
+                <span>${rawTotal.toFixed(2)}</span>
+              </div>
+              
+              {activeDiscount && (
+                <div className="flex justify-between items-center text-green-600 mb-4 p-3 bg-green-50 rounded-lg border border-green-100">
+                  <div className="flex flex-col">
+                    <span className="font-bold flex items-center gap-1">
+                      <Tag className="w-4 h-4" /> {activeDiscount.name} ({activeDiscount.discountPercentage}%)
+                    </span>
+                    <span className="text-xs">{activeDiscount.description}</span>
+                  </div>
+                  <span className="font-bold">-${discountAmount.toFixed(2)}</span>
+                </div>
+              )}
+              
+              <div className="flex justify-between items-center text-xl mt-4">
                 <span className="font-bold">Total</span>
-                <span className="font-bold text-primary">${totalPrice.toFixed(2)}</span>
+                <span className="font-bold text-primary">${finalPrice.toFixed(2)}</span>
               </div>
             </div>
 

@@ -1,73 +1,43 @@
-# React + TypeScript + Vite
+# Taza Pizza SaaS Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taza Pizza is a modern, AI-powered food delivery SaaS application built to demonstrate a scalable, full-stack React implementation with real-time features. 
 
-Currently, two official plugins are available:
+## Features
+- **AI "Pizza Lab"**: Uses Google Gemini to dynamically generate custom gourmet pizza recipes based on user flavor preferences.
+- **Smart Delivery System**: Integrates (mocked/simulated) Google Maps and OpenWeather API to provide dynamic delivery estimates (adds buffer time for rain/snow/smog).
+- **Market Localization**: Features a cultural discount engine that automatically applies discounts during events like Pakistan Day (Mar 23), Independence Day (Aug 14), Basant, and Midnight cravings.
+- **Database Architecture**: Fully configured for Supabase (PostgreSQL) with `orders` and `reviews` tables and Row Level Security (RLS) policies.
+- **State Management**: Cart and checkout logic powered by Zustand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Frontend**: React 19, Vite, Tailwind CSS v4, Radix UI, Framer Motion
+- **Backend / BaaS**: Supabase (PostgreSQL, Auth)
+- **APIs**: Google Gemini SDK (`@google/genai`), Google Maps API, OpenWeather API
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+2. **Environment Variables**
+   Rename `.env.example` to `.env` and fill in your keys:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   VITE_SUPABASE_URL=your_supabase_url_here
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+   VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+   VITE_OPENWEATHER_API_KEY=your_openweather_api_key_here
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+3. **Database Setup**
+   Run the SQL scripts located in `supabase_schema.sql` in your Supabase SQL editor to create the necessary tables for Orders and Reviews.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+4. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Project Documentation
+Detailed diagrams (Architecture, Class, Sequence) and the full project proposal are available in the `project_proposal.md` file in the root directory.
