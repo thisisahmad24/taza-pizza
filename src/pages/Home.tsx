@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
-import { ArrowRight, Star } from "lucide-react"
+import { Star } from "lucide-react"
 
 export default function Home() {
   return (

@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { Sparkles, Loader2, Pizza as PizzaIcon, Plus } from "lucide-react"
 import { generateCustomPizza, type CustomPizza } from "../services/ai"
 import { useOrderStore } from "../store/orderStore"
-import { useNavigate } from "react"
+
 import { toast } from "sonner"
 
 export default function PizzaLab() {
@@ -13,7 +13,7 @@ export default function PizzaLab() {
   const [error, setError] = useState("")
   
   const { addToCart } = useOrderStore()
-  const navigate = useNavigate()
+
 
   const handleGenerate = async () => {
     if (!preferences.trim()) {
