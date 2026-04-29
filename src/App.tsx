@@ -7,7 +7,9 @@ import PizzaLab from "./pages/PizzaLab"
 import OurRoots from "./pages/OurRoots"
 import FindUs from "./pages/FindUs"
 import Checkout from "./pages/Checkout"
-
+import Login from "./pages/Login"
+import Profile from "./pages/Profile"
+import OrderTracker from "./pages/OrderTracker"
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30">
@@ -19,6 +21,9 @@ function App() {
           <Route path="/roots" element={<OurRoots />} />
           <Route path="/find-us" element={<FindUs />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/tracker" element={<OrderTracker />} />
         </Routes>
       </main>
       <Footer />

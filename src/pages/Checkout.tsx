@@ -2,7 +2,9 @@ import { useState, useEffect } from "react"
 import { useOrderStore } from "../store/orderStore"
 import { getWeatherImpact, getRouteBaseTime } from "../services/delivery"
 import { getActiveDiscount, type DiscountEvent } from "../lib/discounts"
-import { MapPin, Clock, CloudRain, CheckCircle2, Loader2, ArrowRight, Tag } from "lucide-react"
+import { MapPin, Clock, CloudRain, Loader2, ArrowRight, Tag } from "lucide-react"
+import { useNavigate } from "react-router-dom"
+import AuthModal from "../components/auth/AuthModal"
 
 export default function Checkout() {
   const { cart, placeOrder } = useOrderStore()
@@ -11,8 +13,9 @@ export default function Checkout() {
   const [weatherDelay, setWeatherDelay] = useState(0)
   const [weatherCondition, setWeatherCondition] = useState("Clear")
   const [baseTime, setBaseTime] = useState(0)
-  const [isPlaced, setIsPlaced] = useState(false)
   const [activeDiscount, setActiveDiscount] = useState<DiscountEvent | null>(null)
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false)
+  const navigate = useNavigate()
   
   const rawTotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
   const discountAmount = activeDiscount ? (rawTotal * activeDiscount.discountPercentage) / 100 : 0
@@ -22,14 +25,11 @@ export default function Checkout() {
 
   useEffect(() => {
     async function fetchWeather() {
-      // Automatically fetch weather impact for the primary city
       const weather = await getWeatherImpact("Lahore")
       setWeatherDelay(weather.delayMinutes)
       setWeatherCondition(weather.condition)
     }
     fetchWeather()
-    
-    // Check for active cultural discounts
     setActiveDiscount(getActiveDiscount())
   }, [])
 
@@ -46,29 +46,15 @@ export default function Checkout() {
       alert("Please enter your address and calculate the route first.")
       return
     }
-    await placeOrder(weatherDelay, baseTime)
-    setIsPlaced(true)
-  }
 
-  if (isPlaced) {
-    return (
-      <div className="container mx-auto px-4 py-24 text-center">
-        <CheckCircle2 className="w-24 h-24 text-green-500 mx-auto mb-6" />
-        <h1 className="text-4xl font-heading font-bold mb-4">Order Placed!</h1>
-        <p className="text-xl text-muted-foreground mb-8">
-          Your estimated delivery time is {totalEta} minutes.
-        </p>
-        <div className="p-8 bg-card border rounded-2xl max-w-xl mx-auto shadow-sm">
-          <h2 className="text-2xl font-bold mb-4">Live Tracker</h2>
-          <div className="h-64 bg-muted rounded-xl border flex items-center justify-center flex-col relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://maps.googleapis.com/maps/api/staticmap?center=Lahore&zoom=13&size=600x300&key=demo')] opacity-20 bg-cover bg-center" />
-            <MapPin className="w-12 h-12 text-primary animate-bounce relative z-10" />
-            <p className="font-medium mt-4 relative z-10">Google Maps Integration Active</p>
-            <p className="text-sm text-muted-foreground relative z-10">Driver is heading to your location</p>
-          </div>
-        </div>
-      </div>
-    )
+    const userData = localStorage.getItem('user')
+    if (!userData) {
+      setIsAuthModalOpen(true)
+      return
+    }
+
+    await placeOrder(weatherDelay, baseTime)
+    navigate('/tracker')
   }
 
   if (cart.length === 0) {
@@ -123,7 +109,7 @@ export default function Checkout() {
                 <div className="flex justify-between items-center p-4 bg-muted/50 rounded-lg">
                   <div className="flex items-center gap-3">
                     <MapPin className="text-blue-500" />
-                    <span className="font-medium">Google Maps Route Time</span>
+                    <span className="font-medium">Leaflet Route Time</span>
                   </div>
                   <span className="font-bold">{baseTime} mins</span>
                 </div>
@@ -187,7 +173,7 @@ export default function Checkout() {
             <button 
               onClick={handlePlaceOrder}
               disabled={baseTime === 0}
-              className="w-full py-4 bg-primary text-white rounded-xl font-bold shadow-md hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center gap-2"
+              className="w-full py-4 bg-primary text-white rounded-xl font-bold shadow-md hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center gap-2"
             >
               Place Order <ArrowRight className="w-5 h-5" />
             </button>
@@ -195,6 +181,11 @@ export default function Checkout() {
           </div>
         </div>
       </div>
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)} 
+        onSuccess={handlePlaceOrder} 
+      />
     </div>
   )
 }
