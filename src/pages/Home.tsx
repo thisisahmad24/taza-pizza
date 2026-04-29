@@ -50,11 +50,12 @@ export default function Home() {
               className="mx-auto lg:ml-auto w-full max-w-[500px] lg:max-w-none relative"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-orange-400/20 rounded-full blur-3xl" />
-              {/* Fallback styling for image using CSS gradients since we don't have actual images yet */}
-              <div className="aspect-square relative rounded-full bg-orange-100 overflow-hidden shadow-2xl border-4 border-white flex items-center justify-center">
-                 <div className="w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-300 via-orange-500 to-red-600 rounded-full flex items-center justify-center text-white font-bold text-4xl shadow-inner">
-                    [Pizza Image placeholder]
-                 </div>
+              <div className="aspect-square relative rounded-full overflow-hidden shadow-2xl border-4 border-white flex items-center justify-center bg-orange-100">
+                 <img 
+                   src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop" 
+                   alt="Delicious wood-fired pizza" 
+                   className="w-full h-full object-cover"
+                 />
               </div>
             </motion.div>
           </div>
