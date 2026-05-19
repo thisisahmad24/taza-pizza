@@ -1,4 +1,5 @@
 import express from 'express';
+import bcrypt from 'bcrypt';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -39,6 +40,95 @@ app.post('/api/orders', async (req, res) => {
     const newOrder = new Order(req.body);
     const savedOrder = await newOrder.save();
     res.status(201).json(savedOrder);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// --- Auth Routes ---
+
+// Register
+app.post('/api/auth/register', async (req, res) => {
+  try {
+    const { name, email, password } = req.body;
+    if (!name || !email || !password) {
+      return res.status(400).json({ error: 'Please provide all required fields.' });
+    }
+
+    const existingUser = await User.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ error: 'Email is already registered.' });
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const newUser = new User({ name, email, password: hashedPassword });
+    const savedUser = await newUser.save();
+    
+    // Return user without password
+    const userToReturn = { _id: savedUser._id, name: savedUser.name, email: savedUser.email };
+    res.status(201).json(userToReturn);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Login
+app.post('/api/auth/login', async (req, res) => {
+  try {
+    const { email, password } = req.body;
+    if (!email || !password) {
+      return res.status(400).json({ error: 'Please provide email and password.' });
+    }
+
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(401).json({ error: 'Invalid credentials.' });
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(401).json({ error: 'Invalid credentials.' });
+    }
+
+    const userToReturn = { _id: user._id, name: user.name, email: user.email };
+    res.json(userToReturn);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Update Profile
+app.put('/api/auth/profile', async (req, res) => {
+  try {
+    const { userId, name, email, newPassword } = req.body;
+    if (!userId) {
+      return res.status(400).json({ error: 'User ID is required.' });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: 'User not found.' });
+    }
+
+    // Check if new email is already taken by another user
+    if (email && email !== user.email) {
+      const emailTaken = await User.findOne({ email });
+      if (emailTaken) {
+        return res.status(400).json({ error: 'Email is already in use.' });
+      }
+      user.email = email;
+    }
+
+    if (name) user.name = name;
+    
+    if (newPassword) {
+      user.password = await bcrypt.hash(newPassword, 10);
+    }
+
+    const updatedUser = await user.save();
+    const userToReturn = { _id: updatedUser._id, name: updatedUser.name, email: updatedUser.email };
+    
+    res.json(userToReturn);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
