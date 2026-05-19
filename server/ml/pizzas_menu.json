@@ -1,0 +1,97 @@
+[
+  {
+    "pizza_id": 1,
+    "name": "Margherita Classica",
+    "tags": [
+      "cheese",
+      "classic",
+      "vegetarian"
+    ]
+  },
+  {
+    "pizza_id": 2,
+    "name": "Pepperoni Feast",
+    "tags": [
+      "spicy",
+      "beef",
+      "meat",
+      "savory"
+    ]
+  },
+  {
+    "pizza_id": 3,
+    "name": "Spicy Beef Supremo",
+    "tags": [
+      "spicy",
+      "beef",
+      "meat",
+      "savory"
+    ]
+  },
+  {
+    "pizza_id": 4,
+    "name": "Chicken Fajita",
+    "tags": [
+      "chicken",
+      "spicy",
+      "savory"
+    ]
+  },
+  {
+    "pizza_id": 5,
+    "name": "Veggie Feast",
+    "tags": [
+      "vegetarian",
+      "healthy",
+      "fresh"
+    ]
+  },
+  {
+    "pizza_id": 6,
+    "name": "Truffle Mushroom",
+    "tags": [
+      "mushroom",
+      "truffle",
+      "cheese",
+      "vegetarian"
+    ]
+  },
+  {
+    "pizza_id": 7,
+    "name": "Four Cheese Bliss",
+    "tags": [
+      "cheese",
+      "classic",
+      "savory",
+      "vegetarian"
+    ]
+  },
+  {
+    "pizza_id": 8,
+    "name": "Garlic Parmesan Chicken",
+    "tags": [
+      "chicken",
+      "savory",
+      "cheese"
+    ]
+  },
+  {
+    "pizza_id": 9,
+    "name": "Ramadan Special Seekh Kabab",
+    "tags": [
+      "spicy",
+      "meat",
+      "beef",
+      "local"
+    ]
+  },
+  {
+    "pizza_id": 10,
+    "name": "Garden Fresh Pesto",
+    "tags": [
+      "vegetarian",
+      "fresh",
+      "healthy"
+    ]
+  }
+]

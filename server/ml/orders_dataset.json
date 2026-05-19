@@ -1,0 +1,9002 @@
+[
+  {
+    "order_id": 1,
+    "distance_km": 9.95,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 48.79
+  },
+  {
+    "order_id": 2,
+    "distance_km": 2.43,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 35.86
+  },
+  {
+    "order_id": 3,
+    "distance_km": 4.26,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 40.5
+  },
+  {
+    "order_id": 4,
+    "distance_km": 4.89,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 38.56
+  },
+  {
+    "order_id": 5,
+    "distance_km": 4.01,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 39.82
+  },
+  {
+    "order_id": 6,
+    "distance_km": 12.86,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 67.02
+  },
+  {
+    "order_id": 7,
+    "distance_km": 13.91,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 66.85
+  },
+  {
+    "order_id": 8,
+    "distance_km": 1.97,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 39.12
+  },
+  {
+    "order_id": 9,
+    "distance_km": 2.41,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 62.64
+  },
+  {
+    "order_id": 10,
+    "distance_km": 3.93,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 41.51
+  },
+  {
+    "order_id": 11,
+    "distance_km": 3.29,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 52.7
+  },
+  {
+    "order_id": 12,
+    "distance_km": 11.76,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 50.85
+  },
+  {
+    "order_id": 13,
+    "distance_km": 4.75,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 49.87
+  },
+  {
+    "order_id": 14,
+    "distance_km": 13.39,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 79.71
+  },
+  {
+    "order_id": 15,
+    "distance_km": 8.86,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 75.31
+  },
+  {
+    "order_id": 16,
+    "distance_km": 14.97,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.25
+  },
+  {
+    "order_id": 17,
+    "distance_km": 9.78,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 68.74
+  },
+  {
+    "order_id": 18,
+    "distance_km": 7.55,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 48.03
+  },
+  {
+    "order_id": 19,
+    "distance_km": 11.51,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 66.75
+  },
+  {
+    "order_id": 20,
+    "distance_km": 1.05,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 37.0
+  },
+  {
+    "order_id": 21,
+    "distance_km": 12.78,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.93
+  },
+  {
+    "order_id": 22,
+    "distance_km": 14.35,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 70.71
+  },
+  {
+    "order_id": 23,
+    "distance_km": 6.08,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 53.33
+  },
+  {
+    "order_id": 24,
+    "distance_km": 14.26,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 69.75
+  },
+  {
+    "order_id": 25,
+    "distance_km": 2.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 55.02
+  },
+  {
+    "order_id": 26,
+    "distance_km": 6.92,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 58.79
+  },
+  {
+    "order_id": 27,
+    "distance_km": 10.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 78.42
+  },
+  {
+    "order_id": 28,
+    "distance_km": 5.73,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 46.95
+  },
+  {
+    "order_id": 29,
+    "distance_km": 1.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 25.59
+  },
+  {
+    "order_id": 30,
+    "distance_km": 4.9,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 55.56
+  },
+  {
+    "order_id": 31,
+    "distance_km": 8.99,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.2
+  },
+  {
+    "order_id": 32,
+    "distance_km": 2.32,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.7
+  },
+  {
+    "order_id": 33,
+    "distance_km": 11.21,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 48.54
+  },
+  {
+    "order_id": 34,
+    "distance_km": 13.06,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.5
+  },
+  {
+    "order_id": 35,
+    "distance_km": 6.91,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.54
+  },
+  {
+    "order_id": 36,
+    "distance_km": 7.2,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 32.28
+  },
+  {
+    "order_id": 37,
+    "distance_km": 12.88,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 80.34
+  },
+  {
+    "order_id": 38,
+    "distance_km": 6.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 44.98
+  },
+  {
+    "order_id": 39,
+    "distance_km": 4.71,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.15
+  },
+  {
+    "order_id": 40,
+    "distance_km": 14.94,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 75.5
+  },
+  {
+    "order_id": 41,
+    "distance_km": 1.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 32.8
+  },
+  {
+    "order_id": 42,
+    "distance_km": 8.04,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 42.16
+  },
+  {
+    "order_id": 43,
+    "distance_km": 9.33,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.56
+  },
+  {
+    "order_id": 44,
+    "distance_km": 9.32,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 61.41
+  },
+  {
+    "order_id": 45,
+    "distance_km": 11.03,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 71.09
+  },
+  {
+    "order_id": 46,
+    "distance_km": 5.2,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 44.36
+  },
+  {
+    "order_id": 47,
+    "distance_km": 8.88,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 37.5
+  },
+  {
+    "order_id": 48,
+    "distance_km": 14.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.15
+  },
+  {
+    "order_id": 49,
+    "distance_km": 12.67,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.49
+  },
+  {
+    "order_id": 50,
+    "distance_km": 13.29,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 64.38
+  },
+  {
+    "order_id": 51,
+    "distance_km": 4.81,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 50.43
+  },
+  {
+    "order_id": 52,
+    "distance_km": 4.7,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 57.15
+  },
+  {
+    "order_id": 53,
+    "distance_km": 12.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 51.42
+  },
+  {
+    "order_id": 54,
+    "distance_km": 14.72,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 87.33
+  },
+  {
+    "order_id": 55,
+    "distance_km": 2.05,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 36.28
+  },
+  {
+    "order_id": 56,
+    "distance_km": 7.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 51.97
+  },
+  {
+    "order_id": 57,
+    "distance_km": 1.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 39.71
+  },
+  {
+    "order_id": 58,
+    "distance_km": 11.92,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.79
+  },
+  {
+    "order_id": 59,
+    "distance_km": 12.2,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 72.21
+  },
+  {
+    "order_id": 60,
+    "distance_km": 5.65,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 64.99
+  },
+  {
+    "order_id": 61,
+    "distance_km": 2.51,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 41.22
+  },
+  {
+    "order_id": 62,
+    "distance_km": 7.44,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.08
+  },
+  {
+    "order_id": 63,
+    "distance_km": 6.58,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 55.87
+  },
+  {
+    "order_id": 64,
+    "distance_km": 6.6,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 43.54
+  },
+  {
+    "order_id": 65,
+    "distance_km": 14.48,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.0
+  },
+  {
+    "order_id": 66,
+    "distance_km": 11.2,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 75.2
+  },
+  {
+    "order_id": 67,
+    "distance_km": 3.66,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 41.43
+  },
+  {
+    "order_id": 68,
+    "distance_km": 8.54,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 68.7
+  },
+  {
+    "order_id": 69,
+    "distance_km": 13.89,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 73.15
+  },
+  {
+    "order_id": 70,
+    "distance_km": 6.72,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 61.56
+  },
+  {
+    "order_id": 71,
+    "distance_km": 14.17,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 79.43
+  },
+  {
+    "order_id": 72,
+    "distance_km": 5.25,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.95
+  },
+  {
+    "order_id": 73,
+    "distance_km": 10.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.2
+  },
+  {
+    "order_id": 74,
+    "distance_km": 9.86,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 55.08
+  },
+  {
+    "order_id": 75,
+    "distance_km": 12.29,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 55.18
+  },
+  {
+    "order_id": 76,
+    "distance_km": 9.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.13
+  },
+  {
+    "order_id": 77,
+    "distance_km": 11.06,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 88.59
+  },
+  {
+    "order_id": 78,
+    "distance_km": 10.63,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 58.49
+  },
+  {
+    "order_id": 79,
+    "distance_km": 10.74,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.71
+  },
+  {
+    "order_id": 80,
+    "distance_km": 2.87,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.12
+  },
+  {
+    "order_id": 81,
+    "distance_km": 13.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 88.81
+  },
+  {
+    "order_id": 82,
+    "distance_km": 7.3,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 60.47
+  },
+  {
+    "order_id": 83,
+    "distance_km": 7.16,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.36
+  },
+  {
+    "order_id": 84,
+    "distance_km": 8.56,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 50.98
+  },
+  {
+    "order_id": 85,
+    "distance_km": 10.89,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 66.35
+  },
+  {
+    "order_id": 86,
+    "distance_km": 6.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.3
+  },
+  {
+    "order_id": 87,
+    "distance_km": 10.74,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 80.25
+  },
+  {
+    "order_id": 88,
+    "distance_km": 6.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.47
+  },
+  {
+    "order_id": 89,
+    "distance_km": 7.8,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 74.5
+  },
+  {
+    "order_id": 90,
+    "distance_km": 7.54,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 50.04
+  },
+  {
+    "order_id": 91,
+    "distance_km": 1.38,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.1
+  },
+  {
+    "order_id": 92,
+    "distance_km": 6.31,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.56
+  },
+  {
+    "order_id": 93,
+    "distance_km": 6.31,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 59.33
+  },
+  {
+    "order_id": 94,
+    "distance_km": 8.55,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.75
+  },
+  {
+    "order_id": 95,
+    "distance_km": 1.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 24.46
+  },
+  {
+    "order_id": 96,
+    "distance_km": 3.13,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 53.17
+  },
+  {
+    "order_id": 97,
+    "distance_km": 7.51,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.1
+  },
+  {
+    "order_id": 98,
+    "distance_km": 11.47,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 55.91
+  },
+  {
+    "order_id": 99,
+    "distance_km": 14.0,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 86.28
+  },
+  {
+    "order_id": 100,
+    "distance_km": 12.63,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.13
+  },
+  {
+    "order_id": 101,
+    "distance_km": 12.28,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.31
+  },
+  {
+    "order_id": 102,
+    "distance_km": 8.08,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 56.17
+  },
+  {
+    "order_id": 103,
+    "distance_km": 7.07,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 65.7
+  },
+  {
+    "order_id": 104,
+    "distance_km": 8.3,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 78.73
+  },
+  {
+    "order_id": 105,
+    "distance_km": 9.29,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 61.37
+  },
+  {
+    "order_id": 106,
+    "distance_km": 4.41,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 70.01
+  },
+  {
+    "order_id": 107,
+    "distance_km": 5.55,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 63.15
+  },
+  {
+    "order_id": 108,
+    "distance_km": 4.92,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 39.52
+  },
+  {
+    "order_id": 109,
+    "distance_km": 6.69,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 69.6
+  },
+  {
+    "order_id": 110,
+    "distance_km": 2.3,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 47.24
+  },
+  {
+    "order_id": 111,
+    "distance_km": 6.17,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 70.03
+  },
+  {
+    "order_id": 112,
+    "distance_km": 4.79,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 48.05
+  },
+  {
+    "order_id": 113,
+    "distance_km": 2.67,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 38.63
+  },
+  {
+    "order_id": 114,
+    "distance_km": 11.14,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 58.03
+  },
+  {
+    "order_id": 115,
+    "distance_km": 3.51,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 37.2
+  },
+  {
+    "order_id": 116,
+    "distance_km": 8.75,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 64.41
+  },
+  {
+    "order_id": 117,
+    "distance_km": 4.98,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 75.85
+  },
+  {
+    "order_id": 118,
+    "distance_km": 4.53,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 47.3
+  },
+  {
+    "order_id": 119,
+    "distance_km": 9.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 41.89
+  },
+  {
+    "order_id": 120,
+    "distance_km": 5.25,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.41
+  },
+  {
+    "order_id": 121,
+    "distance_km": 9.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 87.23
+  },
+  {
+    "order_id": 122,
+    "distance_km": 14.86,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 64.27
+  },
+  {
+    "order_id": 123,
+    "distance_km": 3.95,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 29.03
+  },
+  {
+    "order_id": 124,
+    "distance_km": 3.19,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.57
+  },
+  {
+    "order_id": 125,
+    "distance_km": 5.03,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 60.78
+  },
+  {
+    "order_id": 126,
+    "distance_km": 4.7,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.92
+  },
+  {
+    "order_id": 127,
+    "distance_km": 3.09,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.72
+  },
+  {
+    "order_id": 128,
+    "distance_km": 5.31,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 62.84
+  },
+  {
+    "order_id": 129,
+    "distance_km": 10.8,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 84.29
+  },
+  {
+    "order_id": 130,
+    "distance_km": 13.45,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 72.81
+  },
+  {
+    "order_id": 131,
+    "distance_km": 10.44,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 51.87
+  },
+  {
+    "order_id": 132,
+    "distance_km": 7.59,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.78
+  },
+  {
+    "order_id": 133,
+    "distance_km": 12.4,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 72.5
+  },
+  {
+    "order_id": 134,
+    "distance_km": 10.38,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 71.94
+  },
+  {
+    "order_id": 135,
+    "distance_km": 10.28,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 66.14
+  },
+  {
+    "order_id": 136,
+    "distance_km": 5.53,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 53.49
+  },
+  {
+    "order_id": 137,
+    "distance_km": 8.26,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 73.95
+  },
+  {
+    "order_id": 138,
+    "distance_km": 2.83,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 62.66
+  },
+  {
+    "order_id": 139,
+    "distance_km": 9.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 60.09
+  },
+  {
+    "order_id": 140,
+    "distance_km": 6.71,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 51.22
+  },
+  {
+    "order_id": 141,
+    "distance_km": 3.16,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 55.85
+  },
+  {
+    "order_id": 142,
+    "distance_km": 7.61,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.29
+  },
+  {
+    "order_id": 143,
+    "distance_km": 8.12,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 55.17
+  },
+  {
+    "order_id": 144,
+    "distance_km": 6.81,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 52.42
+  },
+  {
+    "order_id": 145,
+    "distance_km": 9.22,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 70.0
+  },
+  {
+    "order_id": 146,
+    "distance_km": 5.65,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 75.19
+  },
+  {
+    "order_id": 147,
+    "distance_km": 10.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 76.35
+  },
+  {
+    "order_id": 148,
+    "distance_km": 7.62,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 71.44
+  },
+  {
+    "order_id": 149,
+    "distance_km": 2.77,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 46.0
+  },
+  {
+    "order_id": 150,
+    "distance_km": 7.4,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 59.41
+  },
+  {
+    "order_id": 151,
+    "distance_km": 14.57,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 81.91
+  },
+  {
+    "order_id": 152,
+    "distance_km": 10.44,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 82.22
+  },
+  {
+    "order_id": 153,
+    "distance_km": 9.64,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 57.87
+  },
+  {
+    "order_id": 154,
+    "distance_km": 14.7,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 70.15
+  },
+  {
+    "order_id": 155,
+    "distance_km": 1.41,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 39.15
+  },
+  {
+    "order_id": 156,
+    "distance_km": 3.04,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 45.34
+  },
+  {
+    "order_id": 157,
+    "distance_km": 13.19,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 76.86
+  },
+  {
+    "order_id": 158,
+    "distance_km": 4.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 47.93
+  },
+  {
+    "order_id": 159,
+    "distance_km": 3.21,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.41
+  },
+  {
+    "order_id": 160,
+    "distance_km": 10.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 72.71
+  },
+  {
+    "order_id": 161,
+    "distance_km": 2.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 61.61
+  },
+  {
+    "order_id": 162,
+    "distance_km": 14.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 82.82
+  },
+  {
+    "order_id": 163,
+    "distance_km": 11.9,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.65
+  },
+  {
+    "order_id": 164,
+    "distance_km": 9.5,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 60.0
+  },
+  {
+    "order_id": 165,
+    "distance_km": 11.58,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 55.82
+  },
+  {
+    "order_id": 166,
+    "distance_km": 1.47,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 37.16
+  },
+  {
+    "order_id": 167,
+    "distance_km": 6.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 54.06
+  },
+  {
+    "order_id": 168,
+    "distance_km": 4.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 54.44
+  },
+  {
+    "order_id": 169,
+    "distance_km": 13.19,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.74
+  },
+  {
+    "order_id": 170,
+    "distance_km": 4.16,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.08
+  },
+  {
+    "order_id": 171,
+    "distance_km": 4.7,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 54.5
+  },
+  {
+    "order_id": 172,
+    "distance_km": 4.67,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 58.88
+  },
+  {
+    "order_id": 173,
+    "distance_km": 1.35,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 41.35
+  },
+  {
+    "order_id": 174,
+    "distance_km": 13.73,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 78.96
+  },
+  {
+    "order_id": 175,
+    "distance_km": 1.52,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 40.96
+  },
+  {
+    "order_id": 176,
+    "distance_km": 2.9,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.98
+  },
+  {
+    "order_id": 177,
+    "distance_km": 3.16,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.62
+  },
+  {
+    "order_id": 178,
+    "distance_km": 14.32,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 63.63
+  },
+  {
+    "order_id": 179,
+    "distance_km": 4.31,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 50.98
+  },
+  {
+    "order_id": 180,
+    "distance_km": 10.03,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.48
+  },
+  {
+    "order_id": 181,
+    "distance_km": 14.29,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 72.14
+  },
+  {
+    "order_id": 182,
+    "distance_km": 14.6,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.36
+  },
+  {
+    "order_id": 183,
+    "distance_km": 3.87,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 42.5
+  },
+  {
+    "order_id": 184,
+    "distance_km": 12.04,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 55.22
+  },
+  {
+    "order_id": 185,
+    "distance_km": 12.18,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 43.02
+  },
+  {
+    "order_id": 186,
+    "distance_km": 12.04,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.76
+  },
+  {
+    "order_id": 187,
+    "distance_km": 11.38,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 53.28
+  },
+  {
+    "order_id": 188,
+    "distance_km": 8.19,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 53.11
+  },
+  {
+    "order_id": 189,
+    "distance_km": 11.97,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 80.42
+  },
+  {
+    "order_id": 190,
+    "distance_km": 12.86,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 77.38
+  },
+  {
+    "order_id": 191,
+    "distance_km": 2.03,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 31.95
+  },
+  {
+    "order_id": 192,
+    "distance_km": 9.74,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 78.37
+  },
+  {
+    "order_id": 193,
+    "distance_km": 7.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 48.71
+  },
+  {
+    "order_id": 194,
+    "distance_km": 6.79,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 74.76
+  },
+  {
+    "order_id": 195,
+    "distance_km": 6.97,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 61.69
+  },
+  {
+    "order_id": 196,
+    "distance_km": 1.94,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 29.58
+  },
+  {
+    "order_id": 197,
+    "distance_km": 6.22,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 45.42
+  },
+  {
+    "order_id": 198,
+    "distance_km": 5.95,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 55.31
+  },
+  {
+    "order_id": 199,
+    "distance_km": 2.45,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 44.17
+  },
+  {
+    "order_id": 200,
+    "distance_km": 5.9,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 52.93
+  },
+  {
+    "order_id": 201,
+    "distance_km": 7.01,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 41.84
+  },
+  {
+    "order_id": 202,
+    "distance_km": 11.67,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 73.28
+  },
+  {
+    "order_id": 203,
+    "distance_km": 8.93,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 58.72
+  },
+  {
+    "order_id": 204,
+    "distance_km": 1.43,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 52.1
+  },
+  {
+    "order_id": 205,
+    "distance_km": 6.18,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 45.42
+  },
+  {
+    "order_id": 206,
+    "distance_km": 9.65,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 56.9
+  },
+  {
+    "order_id": 207,
+    "distance_km": 9.5,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 68.79
+  },
+  {
+    "order_id": 208,
+    "distance_km": 5.83,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 48.08
+  },
+  {
+    "order_id": 209,
+    "distance_km": 1.64,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 36.5
+  },
+  {
+    "order_id": 210,
+    "distance_km": 3.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 51.76
+  },
+  {
+    "order_id": 211,
+    "distance_km": 7.96,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 59.0
+  },
+  {
+    "order_id": 212,
+    "distance_km": 4.22,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 50.28
+  },
+  {
+    "order_id": 213,
+    "distance_km": 7.11,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.56
+  },
+  {
+    "order_id": 214,
+    "distance_km": 6.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 60.21
+  },
+  {
+    "order_id": 215,
+    "distance_km": 5.55,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 62.91
+  },
+  {
+    "order_id": 216,
+    "distance_km": 4.41,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 54.46
+  },
+  {
+    "order_id": 217,
+    "distance_km": 5.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 48.77
+  },
+  {
+    "order_id": 218,
+    "distance_km": 8.43,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 68.45
+  },
+  {
+    "order_id": 219,
+    "distance_km": 10.04,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 56.37
+  },
+  {
+    "order_id": 220,
+    "distance_km": 3.43,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 34.96
+  },
+  {
+    "order_id": 221,
+    "distance_km": 7.5,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 74.57
+  },
+  {
+    "order_id": 222,
+    "distance_km": 7.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 58.92
+  },
+  {
+    "order_id": 223,
+    "distance_km": 5.35,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 47.37
+  },
+  {
+    "order_id": 224,
+    "distance_km": 2.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 44.34
+  },
+  {
+    "order_id": 225,
+    "distance_km": 12.09,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.54
+  },
+  {
+    "order_id": 226,
+    "distance_km": 8.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 55.25
+  },
+  {
+    "order_id": 227,
+    "distance_km": 5.81,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 34.15
+  },
+  {
+    "order_id": 228,
+    "distance_km": 14.87,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 82.84
+  },
+  {
+    "order_id": 229,
+    "distance_km": 11.84,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.38
+  },
+  {
+    "order_id": 230,
+    "distance_km": 10.5,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.99
+  },
+  {
+    "order_id": 231,
+    "distance_km": 10.29,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 74.01
+  },
+  {
+    "order_id": 232,
+    "distance_km": 14.13,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 88.21
+  },
+  {
+    "order_id": 233,
+    "distance_km": 10.84,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 65.69
+  },
+  {
+    "order_id": 234,
+    "distance_km": 3.52,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 53.98
+  },
+  {
+    "order_id": 235,
+    "distance_km": 2.93,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 33.14
+  },
+  {
+    "order_id": 236,
+    "distance_km": 12.69,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 59.36
+  },
+  {
+    "order_id": 237,
+    "distance_km": 3.27,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 51.77
+  },
+  {
+    "order_id": 238,
+    "distance_km": 11.07,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 80.78
+  },
+  {
+    "order_id": 239,
+    "distance_km": 5.33,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 64.67
+  },
+  {
+    "order_id": 240,
+    "distance_km": 14.78,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 90.03
+  },
+  {
+    "order_id": 241,
+    "distance_km": 14.53,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 73.75
+  },
+  {
+    "order_id": 242,
+    "distance_km": 13.24,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 57.89
+  },
+  {
+    "order_id": 243,
+    "distance_km": 4.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 54.0
+  },
+  {
+    "order_id": 244,
+    "distance_km": 13.38,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 64.46
+  },
+  {
+    "order_id": 245,
+    "distance_km": 4.3,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 38.21
+  },
+  {
+    "order_id": 246,
+    "distance_km": 2.39,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 39.34
+  },
+  {
+    "order_id": 247,
+    "distance_km": 12.62,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 82.07
+  },
+  {
+    "order_id": 248,
+    "distance_km": 2.11,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 43.6
+  },
+  {
+    "order_id": 249,
+    "distance_km": 9.52,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.2
+  },
+  {
+    "order_id": 250,
+    "distance_km": 1.67,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 59.19
+  },
+  {
+    "order_id": 251,
+    "distance_km": 8.0,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 41.79
+  },
+  {
+    "order_id": 252,
+    "distance_km": 9.61,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.53
+  },
+  {
+    "order_id": 253,
+    "distance_km": 8.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 52.94
+  },
+  {
+    "order_id": 254,
+    "distance_km": 1.61,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 58.57
+  },
+  {
+    "order_id": 255,
+    "distance_km": 12.04,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.35
+  },
+  {
+    "order_id": 256,
+    "distance_km": 11.59,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 59.49
+  },
+  {
+    "order_id": 257,
+    "distance_km": 10.0,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 77.9
+  },
+  {
+    "order_id": 258,
+    "distance_km": 11.02,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.18
+  },
+  {
+    "order_id": 259,
+    "distance_km": 3.79,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 45.17
+  },
+  {
+    "order_id": 260,
+    "distance_km": 12.42,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 76.49
+  },
+  {
+    "order_id": 261,
+    "distance_km": 5.01,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 49.42
+  },
+  {
+    "order_id": 262,
+    "distance_km": 7.12,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 81.22
+  },
+  {
+    "order_id": 263,
+    "distance_km": 7.95,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 74.62
+  },
+  {
+    "order_id": 264,
+    "distance_km": 6.94,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 63.16
+  },
+  {
+    "order_id": 265,
+    "distance_km": 5.59,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.63
+  },
+  {
+    "order_id": 266,
+    "distance_km": 3.33,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 65.01
+  },
+  {
+    "order_id": 267,
+    "distance_km": 13.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 79.91
+  },
+  {
+    "order_id": 268,
+    "distance_km": 6.69,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 40.05
+  },
+  {
+    "order_id": 269,
+    "distance_km": 11.94,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.69
+  },
+  {
+    "order_id": 270,
+    "distance_km": 6.13,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 48.17
+  },
+  {
+    "order_id": 271,
+    "distance_km": 6.19,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.08
+  },
+  {
+    "order_id": 272,
+    "distance_km": 5.4,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 51.21
+  },
+  {
+    "order_id": 273,
+    "distance_km": 7.99,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 63.26
+  },
+  {
+    "order_id": 274,
+    "distance_km": 7.25,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 66.03
+  },
+  {
+    "order_id": 275,
+    "distance_km": 2.04,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 49.65
+  },
+  {
+    "order_id": 276,
+    "distance_km": 12.84,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 75.23
+  },
+  {
+    "order_id": 277,
+    "distance_km": 13.48,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 69.87
+  },
+  {
+    "order_id": 278,
+    "distance_km": 14.79,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 76.56
+  },
+  {
+    "order_id": 279,
+    "distance_km": 9.01,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 60.95
+  },
+  {
+    "order_id": 280,
+    "distance_km": 14.99,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 96.7
+  },
+  {
+    "order_id": 281,
+    "distance_km": 2.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 46.42
+  },
+  {
+    "order_id": 282,
+    "distance_km": 5.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 52.78
+  },
+  {
+    "order_id": 283,
+    "distance_km": 1.78,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 30.44
+  },
+  {
+    "order_id": 284,
+    "distance_km": 14.09,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 79.96
+  },
+  {
+    "order_id": 285,
+    "distance_km": 3.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.48
+  },
+  {
+    "order_id": 286,
+    "distance_km": 8.04,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 49.47
+  },
+  {
+    "order_id": 287,
+    "distance_km": 13.63,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 60.71
+  },
+  {
+    "order_id": 288,
+    "distance_km": 9.98,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 70.37
+  },
+  {
+    "order_id": 289,
+    "distance_km": 7.97,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 68.84
+  },
+  {
+    "order_id": 290,
+    "distance_km": 10.59,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 74.15
+  },
+  {
+    "order_id": 291,
+    "distance_km": 7.15,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 72.19
+  },
+  {
+    "order_id": 292,
+    "distance_km": 5.38,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.23
+  },
+  {
+    "order_id": 293,
+    "distance_km": 8.21,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 47.39
+  },
+  {
+    "order_id": 294,
+    "distance_km": 7.29,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 45.56
+  },
+  {
+    "order_id": 295,
+    "distance_km": 13.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 74.23
+  },
+  {
+    "order_id": 296,
+    "distance_km": 9.09,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.21
+  },
+  {
+    "order_id": 297,
+    "distance_km": 7.54,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 69.19
+  },
+  {
+    "order_id": 298,
+    "distance_km": 8.08,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 58.85
+  },
+  {
+    "order_id": 299,
+    "distance_km": 7.93,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 63.65
+  },
+  {
+    "order_id": 300,
+    "distance_km": 2.88,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.84
+  },
+  {
+    "order_id": 301,
+    "distance_km": 1.72,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 49.96
+  },
+  {
+    "order_id": 302,
+    "distance_km": 7.3,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 48.93
+  },
+  {
+    "order_id": 303,
+    "distance_km": 12.13,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 73.63
+  },
+  {
+    "order_id": 304,
+    "distance_km": 6.62,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 30.19
+  },
+  {
+    "order_id": 305,
+    "distance_km": 12.26,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 70.94
+  },
+  {
+    "order_id": 306,
+    "distance_km": 5.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 67.63
+  },
+  {
+    "order_id": 307,
+    "distance_km": 8.45,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 69.62
+  },
+  {
+    "order_id": 308,
+    "distance_km": 2.53,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.25
+  },
+  {
+    "order_id": 309,
+    "distance_km": 14.54,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.42
+  },
+  {
+    "order_id": 310,
+    "distance_km": 11.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 66.97
+  },
+  {
+    "order_id": 311,
+    "distance_km": 10.81,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 57.78
+  },
+  {
+    "order_id": 312,
+    "distance_km": 6.78,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.0
+  },
+  {
+    "order_id": 313,
+    "distance_km": 11.18,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 67.89
+  },
+  {
+    "order_id": 314,
+    "distance_km": 6.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 67.26
+  },
+  {
+    "order_id": 315,
+    "distance_km": 11.81,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 77.86
+  },
+  {
+    "order_id": 316,
+    "distance_km": 5.18,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 53.56
+  },
+  {
+    "order_id": 317,
+    "distance_km": 5.44,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 61.82
+  },
+  {
+    "order_id": 318,
+    "distance_km": 8.6,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.13
+  },
+  {
+    "order_id": 319,
+    "distance_km": 14.37,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 71.19
+  },
+  {
+    "order_id": 320,
+    "distance_km": 7.71,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 61.1
+  },
+  {
+    "order_id": 321,
+    "distance_km": 11.37,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 61.64
+  },
+  {
+    "order_id": 322,
+    "distance_km": 4.16,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 32.89
+  },
+  {
+    "order_id": 323,
+    "distance_km": 7.61,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 42.48
+  },
+  {
+    "order_id": 324,
+    "distance_km": 13.33,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 88.72
+  },
+  {
+    "order_id": 325,
+    "distance_km": 5.5,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 30.47
+  },
+  {
+    "order_id": 326,
+    "distance_km": 12.9,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.28
+  },
+  {
+    "order_id": 327,
+    "distance_km": 13.87,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 90.06
+  },
+  {
+    "order_id": 328,
+    "distance_km": 13.96,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 56.21
+  },
+  {
+    "order_id": 329,
+    "distance_km": 14.0,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 83.13
+  },
+  {
+    "order_id": 330,
+    "distance_km": 7.91,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 72.7
+  },
+  {
+    "order_id": 331,
+    "distance_km": 5.63,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 59.78
+  },
+  {
+    "order_id": 332,
+    "distance_km": 12.07,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.96
+  },
+  {
+    "order_id": 333,
+    "distance_km": 5.59,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.91
+  },
+  {
+    "order_id": 334,
+    "distance_km": 14.1,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 68.09
+  },
+  {
+    "order_id": 335,
+    "distance_km": 4.74,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 52.31
+  },
+  {
+    "order_id": 336,
+    "distance_km": 10.7,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 49.73
+  },
+  {
+    "order_id": 337,
+    "distance_km": 10.61,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.87
+  },
+  {
+    "order_id": 338,
+    "distance_km": 4.07,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 54.92
+  },
+  {
+    "order_id": 339,
+    "distance_km": 9.48,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 76.94
+  },
+  {
+    "order_id": 340,
+    "distance_km": 11.57,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 72.18
+  },
+  {
+    "order_id": 341,
+    "distance_km": 2.57,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 36.49
+  },
+  {
+    "order_id": 342,
+    "distance_km": 7.19,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.81
+  },
+  {
+    "order_id": 343,
+    "distance_km": 1.78,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 52.12
+  },
+  {
+    "order_id": 344,
+    "distance_km": 7.47,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 55.62
+  },
+  {
+    "order_id": 345,
+    "distance_km": 11.44,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 50.2
+  },
+  {
+    "order_id": 346,
+    "distance_km": 8.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 44.81
+  },
+  {
+    "order_id": 347,
+    "distance_km": 3.52,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 57.65
+  },
+  {
+    "order_id": 348,
+    "distance_km": 13.84,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 86.99
+  },
+  {
+    "order_id": 349,
+    "distance_km": 13.24,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 72.58
+  },
+  {
+    "order_id": 350,
+    "distance_km": 6.5,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 46.82
+  },
+  {
+    "order_id": 351,
+    "distance_km": 5.18,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 63.83
+  },
+  {
+    "order_id": 352,
+    "distance_km": 3.17,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 34.41
+  },
+  {
+    "order_id": 353,
+    "distance_km": 9.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 44.83
+  },
+  {
+    "order_id": 354,
+    "distance_km": 1.47,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 25.49
+  },
+  {
+    "order_id": 355,
+    "distance_km": 8.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.35
+  },
+  {
+    "order_id": 356,
+    "distance_km": 11.24,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 72.23
+  },
+  {
+    "order_id": 357,
+    "distance_km": 14.8,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 84.68
+  },
+  {
+    "order_id": 358,
+    "distance_km": 14.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 86.12
+  },
+  {
+    "order_id": 359,
+    "distance_km": 14.18,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 90.4
+  },
+  {
+    "order_id": 360,
+    "distance_km": 6.27,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 58.75
+  },
+  {
+    "order_id": 361,
+    "distance_km": 3.02,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 48.72
+  },
+  {
+    "order_id": 362,
+    "distance_km": 2.88,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 42.64
+  },
+  {
+    "order_id": 363,
+    "distance_km": 13.91,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 65.08
+  },
+  {
+    "order_id": 364,
+    "distance_km": 10.43,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 42.86
+  },
+  {
+    "order_id": 365,
+    "distance_km": 11.14,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 73.07
+  },
+  {
+    "order_id": 366,
+    "distance_km": 5.24,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 33.95
+  },
+  {
+    "order_id": 367,
+    "distance_km": 14.99,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 80.72
+  },
+  {
+    "order_id": 368,
+    "distance_km": 8.73,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 76.27
+  },
+  {
+    "order_id": 369,
+    "distance_km": 5.32,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 71.21
+  },
+  {
+    "order_id": 370,
+    "distance_km": 11.11,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 72.52
+  },
+  {
+    "order_id": 371,
+    "distance_km": 8.88,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 51.36
+  },
+  {
+    "order_id": 372,
+    "distance_km": 9.18,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.44
+  },
+  {
+    "order_id": 373,
+    "distance_km": 6.32,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.59
+  },
+  {
+    "order_id": 374,
+    "distance_km": 7.84,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 74.48
+  },
+  {
+    "order_id": 375,
+    "distance_km": 3.37,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 46.03
+  },
+  {
+    "order_id": 376,
+    "distance_km": 12.85,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 54.15
+  },
+  {
+    "order_id": 377,
+    "distance_km": 4.24,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 33.47
+  },
+  {
+    "order_id": 378,
+    "distance_km": 1.85,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 58.72
+  },
+  {
+    "order_id": 379,
+    "distance_km": 6.76,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 49.91
+  },
+  {
+    "order_id": 380,
+    "distance_km": 10.77,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 66.0
+  },
+  {
+    "order_id": 381,
+    "distance_km": 4.37,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 61.62
+  },
+  {
+    "order_id": 382,
+    "distance_km": 6.22,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 68.73
+  },
+  {
+    "order_id": 383,
+    "distance_km": 10.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 39.09
+  },
+  {
+    "order_id": 384,
+    "distance_km": 8.74,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 34.85
+  },
+  {
+    "order_id": 385,
+    "distance_km": 7.07,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 47.81
+  },
+  {
+    "order_id": 386,
+    "distance_km": 13.15,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 78.43
+  },
+  {
+    "order_id": 387,
+    "distance_km": 4.93,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.71
+  },
+  {
+    "order_id": 388,
+    "distance_km": 9.22,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.24
+  },
+  {
+    "order_id": 389,
+    "distance_km": 8.93,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 79.04
+  },
+  {
+    "order_id": 390,
+    "distance_km": 12.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 57.99
+  },
+  {
+    "order_id": 391,
+    "distance_km": 12.74,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 86.25
+  },
+  {
+    "order_id": 392,
+    "distance_km": 11.97,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 84.08
+  },
+  {
+    "order_id": 393,
+    "distance_km": 6.26,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 57.01
+  },
+  {
+    "order_id": 394,
+    "distance_km": 12.17,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 54.06
+  },
+  {
+    "order_id": 395,
+    "distance_km": 11.97,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 77.74
+  },
+  {
+    "order_id": 396,
+    "distance_km": 1.07,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.98
+  },
+  {
+    "order_id": 397,
+    "distance_km": 2.86,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 56.31
+  },
+  {
+    "order_id": 398,
+    "distance_km": 6.71,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 39.55
+  },
+  {
+    "order_id": 399,
+    "distance_km": 9.37,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 69.17
+  },
+  {
+    "order_id": 400,
+    "distance_km": 11.91,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.69
+  },
+  {
+    "order_id": 401,
+    "distance_km": 5.22,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 51.85
+  },
+  {
+    "order_id": 402,
+    "distance_km": 6.9,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.58
+  },
+  {
+    "order_id": 403,
+    "distance_km": 11.09,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 76.63
+  },
+  {
+    "order_id": 404,
+    "distance_km": 1.09,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.81
+  },
+  {
+    "order_id": 405,
+    "distance_km": 7.16,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.21
+  },
+  {
+    "order_id": 406,
+    "distance_km": 10.73,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 76.23
+  },
+  {
+    "order_id": 407,
+    "distance_km": 5.08,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 62.04
+  },
+  {
+    "order_id": 408,
+    "distance_km": 12.0,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.49
+  },
+  {
+    "order_id": 409,
+    "distance_km": 3.52,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 43.69
+  },
+  {
+    "order_id": 410,
+    "distance_km": 12.64,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 71.0
+  },
+  {
+    "order_id": 411,
+    "distance_km": 4.39,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 59.82
+  },
+  {
+    "order_id": 412,
+    "distance_km": 9.37,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 75.83
+  },
+  {
+    "order_id": 413,
+    "distance_km": 10.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 43.54
+  },
+  {
+    "order_id": 414,
+    "distance_km": 3.33,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 47.12
+  },
+  {
+    "order_id": 415,
+    "distance_km": 1.15,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 39.5
+  },
+  {
+    "order_id": 416,
+    "distance_km": 7.48,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 55.51
+  },
+  {
+    "order_id": 417,
+    "distance_km": 6.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 32.49
+  },
+  {
+    "order_id": 418,
+    "distance_km": 7.37,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 69.22
+  },
+  {
+    "order_id": 419,
+    "distance_km": 11.11,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 74.41
+  },
+  {
+    "order_id": 420,
+    "distance_km": 10.95,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 56.28
+  },
+  {
+    "order_id": 421,
+    "distance_km": 14.02,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.23
+  },
+  {
+    "order_id": 422,
+    "distance_km": 14.42,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 77.47
+  },
+  {
+    "order_id": 423,
+    "distance_km": 7.05,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.41
+  },
+  {
+    "order_id": 424,
+    "distance_km": 1.06,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 43.26
+  },
+  {
+    "order_id": 425,
+    "distance_km": 12.14,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.44
+  },
+  {
+    "order_id": 426,
+    "distance_km": 2.6,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.18
+  },
+  {
+    "order_id": 427,
+    "distance_km": 2.6,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 56.02
+  },
+  {
+    "order_id": 428,
+    "distance_km": 12.21,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.74
+  },
+  {
+    "order_id": 429,
+    "distance_km": 2.64,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 48.89
+  },
+  {
+    "order_id": 430,
+    "distance_km": 9.05,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 69.74
+  },
+  {
+    "order_id": 431,
+    "distance_km": 13.87,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 70.6
+  },
+  {
+    "order_id": 432,
+    "distance_km": 5.4,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 54.45
+  },
+  {
+    "order_id": 433,
+    "distance_km": 3.73,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 71.3
+  },
+  {
+    "order_id": 434,
+    "distance_km": 10.94,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 81.55
+  },
+  {
+    "order_id": 435,
+    "distance_km": 12.14,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.52
+  },
+  {
+    "order_id": 436,
+    "distance_km": 5.04,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 65.44
+  },
+  {
+    "order_id": 437,
+    "distance_km": 11.85,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.78
+  },
+  {
+    "order_id": 438,
+    "distance_km": 6.95,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 51.66
+  },
+  {
+    "order_id": 439,
+    "distance_km": 13.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.61
+  },
+  {
+    "order_id": 440,
+    "distance_km": 3.94,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 54.77
+  },
+  {
+    "order_id": 441,
+    "distance_km": 3.89,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 40.07
+  },
+  {
+    "order_id": 442,
+    "distance_km": 8.54,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 68.65
+  },
+  {
+    "order_id": 443,
+    "distance_km": 13.01,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 61.0
+  },
+  {
+    "order_id": 444,
+    "distance_km": 13.14,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 62.48
+  },
+  {
+    "order_id": 445,
+    "distance_km": 12.6,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 85.9
+  },
+  {
+    "order_id": 446,
+    "distance_km": 9.79,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 79.36
+  },
+  {
+    "order_id": 447,
+    "distance_km": 11.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 83.75
+  },
+  {
+    "order_id": 448,
+    "distance_km": 5.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 38.44
+  },
+  {
+    "order_id": 449,
+    "distance_km": 6.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 47.02
+  },
+  {
+    "order_id": 450,
+    "distance_km": 7.93,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 68.06
+  },
+  {
+    "order_id": 451,
+    "distance_km": 8.93,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 69.12
+  },
+  {
+    "order_id": 452,
+    "distance_km": 11.97,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 61.9
+  },
+  {
+    "order_id": 453,
+    "distance_km": 7.39,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 59.88
+  },
+  {
+    "order_id": 454,
+    "distance_km": 13.24,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 70.85
+  },
+  {
+    "order_id": 455,
+    "distance_km": 10.3,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 56.17
+  },
+  {
+    "order_id": 456,
+    "distance_km": 10.79,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.76
+  },
+  {
+    "order_id": 457,
+    "distance_km": 3.99,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 29.51
+  },
+  {
+    "order_id": 458,
+    "distance_km": 1.13,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 40.72
+  },
+  {
+    "order_id": 459,
+    "distance_km": 1.99,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.42
+  },
+  {
+    "order_id": 460,
+    "distance_km": 13.33,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 75.8
+  },
+  {
+    "order_id": 461,
+    "distance_km": 3.0,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 35.17
+  },
+  {
+    "order_id": 462,
+    "distance_km": 9.79,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.63
+  },
+  {
+    "order_id": 463,
+    "distance_km": 13.55,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 69.26
+  },
+  {
+    "order_id": 464,
+    "distance_km": 5.4,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 52.25
+  },
+  {
+    "order_id": 465,
+    "distance_km": 8.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 57.93
+  },
+  {
+    "order_id": 466,
+    "distance_km": 8.13,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.52
+  },
+  {
+    "order_id": 467,
+    "distance_km": 14.37,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 86.92
+  },
+  {
+    "order_id": 468,
+    "distance_km": 9.32,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 58.96
+  },
+  {
+    "order_id": 469,
+    "distance_km": 12.75,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 79.79
+  },
+  {
+    "order_id": 470,
+    "distance_km": 14.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 49.34
+  },
+  {
+    "order_id": 471,
+    "distance_km": 1.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 43.54
+  },
+  {
+    "order_id": 472,
+    "distance_km": 11.74,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 80.46
+  },
+  {
+    "order_id": 473,
+    "distance_km": 9.62,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 63.08
+  },
+  {
+    "order_id": 474,
+    "distance_km": 3.84,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 56.0
+  },
+  {
+    "order_id": 475,
+    "distance_km": 12.68,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.06
+  },
+  {
+    "order_id": 476,
+    "distance_km": 4.34,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 44.71
+  },
+  {
+    "order_id": 477,
+    "distance_km": 9.52,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 58.42
+  },
+  {
+    "order_id": 478,
+    "distance_km": 10.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 79.1
+  },
+  {
+    "order_id": 479,
+    "distance_km": 12.52,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 74.05
+  },
+  {
+    "order_id": 480,
+    "distance_km": 13.23,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 53.86
+  },
+  {
+    "order_id": 481,
+    "distance_km": 8.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 59.86
+  },
+  {
+    "order_id": 482,
+    "distance_km": 1.78,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 43.27
+  },
+  {
+    "order_id": 483,
+    "distance_km": 13.52,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.88
+  },
+  {
+    "order_id": 484,
+    "distance_km": 1.17,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 46.19
+  },
+  {
+    "order_id": 485,
+    "distance_km": 3.51,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 39.02
+  },
+  {
+    "order_id": 486,
+    "distance_km": 13.82,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 74.17
+  },
+  {
+    "order_id": 487,
+    "distance_km": 8.03,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 39.12
+  },
+  {
+    "order_id": 488,
+    "distance_km": 1.64,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 47.45
+  },
+  {
+    "order_id": 489,
+    "distance_km": 12.83,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 70.68
+  },
+  {
+    "order_id": 490,
+    "distance_km": 5.08,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 57.98
+  },
+  {
+    "order_id": 491,
+    "distance_km": 7.91,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 53.07
+  },
+  {
+    "order_id": 492,
+    "distance_km": 1.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.1
+  },
+  {
+    "order_id": 493,
+    "distance_km": 6.27,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 48.12
+  },
+  {
+    "order_id": 494,
+    "distance_km": 6.88,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 42.83
+  },
+  {
+    "order_id": 495,
+    "distance_km": 4.24,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.35
+  },
+  {
+    "order_id": 496,
+    "distance_km": 2.34,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.05
+  },
+  {
+    "order_id": 497,
+    "distance_km": 7.09,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 58.78
+  },
+  {
+    "order_id": 498,
+    "distance_km": 13.96,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 90.22
+  },
+  {
+    "order_id": 499,
+    "distance_km": 2.05,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 32.94
+  },
+  {
+    "order_id": 500,
+    "distance_km": 7.29,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.8
+  },
+  {
+    "order_id": 501,
+    "distance_km": 11.78,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 83.51
+  },
+  {
+    "order_id": 502,
+    "distance_km": 2.27,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 34.74
+  },
+  {
+    "order_id": 503,
+    "distance_km": 3.08,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 52.35
+  },
+  {
+    "order_id": 504,
+    "distance_km": 5.18,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 43.81
+  },
+  {
+    "order_id": 505,
+    "distance_km": 11.47,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 63.59
+  },
+  {
+    "order_id": 506,
+    "distance_km": 2.96,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 19.49
+  },
+  {
+    "order_id": 507,
+    "distance_km": 6.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 43.02
+  },
+  {
+    "order_id": 508,
+    "distance_km": 3.77,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 49.41
+  },
+  {
+    "order_id": 509,
+    "distance_km": 5.64,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.37
+  },
+  {
+    "order_id": 510,
+    "distance_km": 7.06,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 72.2
+  },
+  {
+    "order_id": 511,
+    "distance_km": 3.42,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 45.39
+  },
+  {
+    "order_id": 512,
+    "distance_km": 3.08,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 51.85
+  },
+  {
+    "order_id": 513,
+    "distance_km": 7.71,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 52.03
+  },
+  {
+    "order_id": 514,
+    "distance_km": 10.0,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 56.64
+  },
+  {
+    "order_id": 515,
+    "distance_km": 7.72,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 74.61
+  },
+  {
+    "order_id": 516,
+    "distance_km": 1.36,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 35.33
+  },
+  {
+    "order_id": 517,
+    "distance_km": 7.6,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 55.24
+  },
+  {
+    "order_id": 518,
+    "distance_km": 4.38,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 42.26
+  },
+  {
+    "order_id": 519,
+    "distance_km": 14.88,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 65.65
+  },
+  {
+    "order_id": 520,
+    "distance_km": 11.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.52
+  },
+  {
+    "order_id": 521,
+    "distance_km": 8.88,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 74.17
+  },
+  {
+    "order_id": 522,
+    "distance_km": 2.26,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 37.58
+  },
+  {
+    "order_id": 523,
+    "distance_km": 5.64,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 50.13
+  },
+  {
+    "order_id": 524,
+    "distance_km": 12.23,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 58.83
+  },
+  {
+    "order_id": 525,
+    "distance_km": 13.84,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 63.21
+  },
+  {
+    "order_id": 526,
+    "distance_km": 10.27,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 60.58
+  },
+  {
+    "order_id": 527,
+    "distance_km": 3.21,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 70.65
+  },
+  {
+    "order_id": 528,
+    "distance_km": 8.87,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 58.6
+  },
+  {
+    "order_id": 529,
+    "distance_km": 10.64,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 56.95
+  },
+  {
+    "order_id": 530,
+    "distance_km": 6.48,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 44.6
+  },
+  {
+    "order_id": 531,
+    "distance_km": 4.09,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 44.96
+  },
+  {
+    "order_id": 532,
+    "distance_km": 4.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 45.45
+  },
+  {
+    "order_id": 533,
+    "distance_km": 9.95,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 73.0
+  },
+  {
+    "order_id": 534,
+    "distance_km": 10.7,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.25
+  },
+  {
+    "order_id": 535,
+    "distance_km": 6.4,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 64.15
+  },
+  {
+    "order_id": 536,
+    "distance_km": 5.92,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.89
+  },
+  {
+    "order_id": 537,
+    "distance_km": 10.11,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 63.17
+  },
+  {
+    "order_id": 538,
+    "distance_km": 1.47,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 38.4
+  },
+  {
+    "order_id": 539,
+    "distance_km": 3.38,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 48.78
+  },
+  {
+    "order_id": 540,
+    "distance_km": 14.69,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 87.05
+  },
+  {
+    "order_id": 541,
+    "distance_km": 3.31,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 46.77
+  },
+  {
+    "order_id": 542,
+    "distance_km": 14.64,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 88.81
+  },
+  {
+    "order_id": 543,
+    "distance_km": 1.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 41.74
+  },
+  {
+    "order_id": 544,
+    "distance_km": 2.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 46.7
+  },
+  {
+    "order_id": 545,
+    "distance_km": 9.93,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 59.68
+  },
+  {
+    "order_id": 546,
+    "distance_km": 7.59,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 57.59
+  },
+  {
+    "order_id": 547,
+    "distance_km": 6.34,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 59.67
+  },
+  {
+    "order_id": 548,
+    "distance_km": 4.69,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 40.31
+  },
+  {
+    "order_id": 549,
+    "distance_km": 2.35,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 50.56
+  },
+  {
+    "order_id": 550,
+    "distance_km": 6.42,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 69.45
+  },
+  {
+    "order_id": 551,
+    "distance_km": 6.53,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 35.17
+  },
+  {
+    "order_id": 552,
+    "distance_km": 14.29,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 66.35
+  },
+  {
+    "order_id": 553,
+    "distance_km": 2.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 47.54
+  },
+  {
+    "order_id": 554,
+    "distance_km": 5.48,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 37.39
+  },
+  {
+    "order_id": 555,
+    "distance_km": 5.57,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 63.53
+  },
+  {
+    "order_id": 556,
+    "distance_km": 9.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 66.02
+  },
+  {
+    "order_id": 557,
+    "distance_km": 9.23,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 38.43
+  },
+  {
+    "order_id": 558,
+    "distance_km": 8.5,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 75.71
+  },
+  {
+    "order_id": 559,
+    "distance_km": 9.01,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 55.23
+  },
+  {
+    "order_id": 560,
+    "distance_km": 9.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.72
+  },
+  {
+    "order_id": 561,
+    "distance_km": 1.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.74
+  },
+  {
+    "order_id": 562,
+    "distance_km": 12.11,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 78.86
+  },
+  {
+    "order_id": 563,
+    "distance_km": 2.38,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 42.78
+  },
+  {
+    "order_id": 564,
+    "distance_km": 12.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 77.23
+  },
+  {
+    "order_id": 565,
+    "distance_km": 13.79,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 95.14
+  },
+  {
+    "order_id": 566,
+    "distance_km": 12.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 64.04
+  },
+  {
+    "order_id": 567,
+    "distance_km": 8.34,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 38.95
+  },
+  {
+    "order_id": 568,
+    "distance_km": 1.81,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 39.14
+  },
+  {
+    "order_id": 569,
+    "distance_km": 4.84,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 61.69
+  },
+  {
+    "order_id": 570,
+    "distance_km": 6.21,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.68
+  },
+  {
+    "order_id": 571,
+    "distance_km": 5.82,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 53.21
+  },
+  {
+    "order_id": 572,
+    "distance_km": 3.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 39.32
+  },
+  {
+    "order_id": 573,
+    "distance_km": 10.12,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 46.74
+  },
+  {
+    "order_id": 574,
+    "distance_km": 9.42,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 54.47
+  },
+  {
+    "order_id": 575,
+    "distance_km": 5.28,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.75
+  },
+  {
+    "order_id": 576,
+    "distance_km": 4.53,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.13
+  },
+  {
+    "order_id": 577,
+    "distance_km": 8.16,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 67.22
+  },
+  {
+    "order_id": 578,
+    "distance_km": 1.89,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.19
+  },
+  {
+    "order_id": 579,
+    "distance_km": 14.33,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 73.62
+  },
+  {
+    "order_id": 580,
+    "distance_km": 13.6,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 80.58
+  },
+  {
+    "order_id": 581,
+    "distance_km": 7.96,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 67.56
+  },
+  {
+    "order_id": 582,
+    "distance_km": 1.49,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 41.83
+  },
+  {
+    "order_id": 583,
+    "distance_km": 11.99,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 70.45
+  },
+  {
+    "order_id": 584,
+    "distance_km": 8.82,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 61.77
+  },
+  {
+    "order_id": 585,
+    "distance_km": 11.15,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.44
+  },
+  {
+    "order_id": 586,
+    "distance_km": 11.42,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 81.83
+  },
+  {
+    "order_id": 587,
+    "distance_km": 5.12,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 47.2
+  },
+  {
+    "order_id": 588,
+    "distance_km": 9.12,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 55.66
+  },
+  {
+    "order_id": 589,
+    "distance_km": 10.53,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 73.39
+  },
+  {
+    "order_id": 590,
+    "distance_km": 2.92,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 54.48
+  },
+  {
+    "order_id": 591,
+    "distance_km": 14.81,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 73.77
+  },
+  {
+    "order_id": 592,
+    "distance_km": 5.66,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 52.01
+  },
+  {
+    "order_id": 593,
+    "distance_km": 3.93,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 47.62
+  },
+  {
+    "order_id": 594,
+    "distance_km": 2.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 65.97
+  },
+  {
+    "order_id": 595,
+    "distance_km": 6.37,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 47.1
+  },
+  {
+    "order_id": 596,
+    "distance_km": 11.6,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 52.7
+  },
+  {
+    "order_id": 597,
+    "distance_km": 4.17,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 50.08
+  },
+  {
+    "order_id": 598,
+    "distance_km": 9.24,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 50.45
+  },
+  {
+    "order_id": 599,
+    "distance_km": 7.38,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.94
+  },
+  {
+    "order_id": 600,
+    "distance_km": 7.86,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 55.84
+  },
+  {
+    "order_id": 601,
+    "distance_km": 11.18,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 59.96
+  },
+  {
+    "order_id": 602,
+    "distance_km": 2.72,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 45.9
+  },
+  {
+    "order_id": 603,
+    "distance_km": 1.68,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 20.77
+  },
+  {
+    "order_id": 604,
+    "distance_km": 6.83,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.68
+  },
+  {
+    "order_id": 605,
+    "distance_km": 3.88,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 41.5
+  },
+  {
+    "order_id": 606,
+    "distance_km": 8.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.36
+  },
+  {
+    "order_id": 607,
+    "distance_km": 2.65,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 30.95
+  },
+  {
+    "order_id": 608,
+    "distance_km": 11.89,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 74.71
+  },
+  {
+    "order_id": 609,
+    "distance_km": 8.67,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 72.18
+  },
+  {
+    "order_id": 610,
+    "distance_km": 10.4,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 60.84
+  },
+  {
+    "order_id": 611,
+    "distance_km": 2.05,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 31.59
+  },
+  {
+    "order_id": 612,
+    "distance_km": 5.14,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 44.87
+  },
+  {
+    "order_id": 613,
+    "distance_km": 1.55,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 55.59
+  },
+  {
+    "order_id": 614,
+    "distance_km": 2.33,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 19.27
+  },
+  {
+    "order_id": 615,
+    "distance_km": 5.6,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 59.94
+  },
+  {
+    "order_id": 616,
+    "distance_km": 3.56,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.91
+  },
+  {
+    "order_id": 617,
+    "distance_km": 10.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 76.55
+  },
+  {
+    "order_id": 618,
+    "distance_km": 11.17,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.87
+  },
+  {
+    "order_id": 619,
+    "distance_km": 8.97,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 69.0
+  },
+  {
+    "order_id": 620,
+    "distance_km": 1.4,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.66
+  },
+  {
+    "order_id": 621,
+    "distance_km": 7.17,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 51.54
+  },
+  {
+    "order_id": 622,
+    "distance_km": 10.49,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 64.71
+  },
+  {
+    "order_id": 623,
+    "distance_km": 4.48,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.18
+  },
+  {
+    "order_id": 624,
+    "distance_km": 13.49,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.77
+  },
+  {
+    "order_id": 625,
+    "distance_km": 12.93,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.55
+  },
+  {
+    "order_id": 626,
+    "distance_km": 14.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 67.4
+  },
+  {
+    "order_id": 627,
+    "distance_km": 2.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.25
+  },
+  {
+    "order_id": 628,
+    "distance_km": 5.42,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 46.29
+  },
+  {
+    "order_id": 629,
+    "distance_km": 8.8,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 46.19
+  },
+  {
+    "order_id": 630,
+    "distance_km": 10.16,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 80.06
+  },
+  {
+    "order_id": 631,
+    "distance_km": 4.12,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.77
+  },
+  {
+    "order_id": 632,
+    "distance_km": 11.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 43.07
+  },
+  {
+    "order_id": 633,
+    "distance_km": 12.62,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 75.74
+  },
+  {
+    "order_id": 634,
+    "distance_km": 7.89,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 62.81
+  },
+  {
+    "order_id": 635,
+    "distance_km": 2.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 57.57
+  },
+  {
+    "order_id": 636,
+    "distance_km": 11.04,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 59.61
+  },
+  {
+    "order_id": 637,
+    "distance_km": 9.24,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 75.61
+  },
+  {
+    "order_id": 638,
+    "distance_km": 11.31,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 82.51
+  },
+  {
+    "order_id": 639,
+    "distance_km": 11.23,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 62.38
+  },
+  {
+    "order_id": 640,
+    "distance_km": 13.36,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 84.09
+  },
+  {
+    "order_id": 641,
+    "distance_km": 5.8,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 63.24
+  },
+  {
+    "order_id": 642,
+    "distance_km": 10.8,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 69.13
+  },
+  {
+    "order_id": 643,
+    "distance_km": 11.0,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.63
+  },
+  {
+    "order_id": 644,
+    "distance_km": 9.92,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.01
+  },
+  {
+    "order_id": 645,
+    "distance_km": 10.34,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 77.39
+  },
+  {
+    "order_id": 646,
+    "distance_km": 2.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 43.89
+  },
+  {
+    "order_id": 647,
+    "distance_km": 4.74,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 55.87
+  },
+  {
+    "order_id": 648,
+    "distance_km": 10.67,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 64.62
+  },
+  {
+    "order_id": 649,
+    "distance_km": 2.43,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.93
+  },
+  {
+    "order_id": 650,
+    "distance_km": 12.18,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 66.2
+  },
+  {
+    "order_id": 651,
+    "distance_km": 12.03,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 57.33
+  },
+  {
+    "order_id": 652,
+    "distance_km": 9.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 74.49
+  },
+  {
+    "order_id": 653,
+    "distance_km": 11.34,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 67.38
+  },
+  {
+    "order_id": 654,
+    "distance_km": 10.56,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 54.02
+  },
+  {
+    "order_id": 655,
+    "distance_km": 4.91,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 47.31
+  },
+  {
+    "order_id": 656,
+    "distance_km": 1.08,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 42.99
+  },
+  {
+    "order_id": 657,
+    "distance_km": 9.36,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 81.25
+  },
+  {
+    "order_id": 658,
+    "distance_km": 5.45,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 42.64
+  },
+  {
+    "order_id": 659,
+    "distance_km": 6.82,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 62.2
+  },
+  {
+    "order_id": 660,
+    "distance_km": 10.29,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 78.08
+  },
+  {
+    "order_id": 661,
+    "distance_km": 9.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 56.69
+  },
+  {
+    "order_id": 662,
+    "distance_km": 4.36,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 43.15
+  },
+  {
+    "order_id": 663,
+    "distance_km": 14.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 89.81
+  },
+  {
+    "order_id": 664,
+    "distance_km": 12.51,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 87.66
+  },
+  {
+    "order_id": 665,
+    "distance_km": 10.12,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 57.71
+  },
+  {
+    "order_id": 666,
+    "distance_km": 11.83,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 45.96
+  },
+  {
+    "order_id": 667,
+    "distance_km": 3.98,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 46.94
+  },
+  {
+    "order_id": 668,
+    "distance_km": 13.3,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 69.13
+  },
+  {
+    "order_id": 669,
+    "distance_km": 5.64,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 30.98
+  },
+  {
+    "order_id": 670,
+    "distance_km": 8.81,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 64.88
+  },
+  {
+    "order_id": 671,
+    "distance_km": 6.66,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 51.5
+  },
+  {
+    "order_id": 672,
+    "distance_km": 1.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 16.98
+  },
+  {
+    "order_id": 673,
+    "distance_km": 2.49,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 46.51
+  },
+  {
+    "order_id": 674,
+    "distance_km": 6.34,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 49.01
+  },
+  {
+    "order_id": 675,
+    "distance_km": 11.45,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 71.79
+  },
+  {
+    "order_id": 676,
+    "distance_km": 14.52,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 62.93
+  },
+  {
+    "order_id": 677,
+    "distance_km": 9.02,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.29
+  },
+  {
+    "order_id": 678,
+    "distance_km": 13.65,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 80.18
+  },
+  {
+    "order_id": 679,
+    "distance_km": 2.99,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 46.32
+  },
+  {
+    "order_id": 680,
+    "distance_km": 10.39,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 60.49
+  },
+  {
+    "order_id": 681,
+    "distance_km": 4.51,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.16
+  },
+  {
+    "order_id": 682,
+    "distance_km": 10.18,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 49.9
+  },
+  {
+    "order_id": 683,
+    "distance_km": 7.31,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.72
+  },
+  {
+    "order_id": 684,
+    "distance_km": 7.0,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 44.66
+  },
+  {
+    "order_id": 685,
+    "distance_km": 11.36,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 81.94
+  },
+  {
+    "order_id": 686,
+    "distance_km": 5.64,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 76.92
+  },
+  {
+    "order_id": 687,
+    "distance_km": 7.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 37.89
+  },
+  {
+    "order_id": 688,
+    "distance_km": 12.57,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.15
+  },
+  {
+    "order_id": 689,
+    "distance_km": 1.26,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 34.3
+  },
+  {
+    "order_id": 690,
+    "distance_km": 8.61,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 67.69
+  },
+  {
+    "order_id": 691,
+    "distance_km": 11.81,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 71.56
+  },
+  {
+    "order_id": 692,
+    "distance_km": 6.55,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 38.42
+  },
+  {
+    "order_id": 693,
+    "distance_km": 7.25,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 53.75
+  },
+  {
+    "order_id": 694,
+    "distance_km": 11.66,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.35
+  },
+  {
+    "order_id": 695,
+    "distance_km": 10.36,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 81.04
+  },
+  {
+    "order_id": 696,
+    "distance_km": 1.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 43.63
+  },
+  {
+    "order_id": 697,
+    "distance_km": 9.1,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 72.01
+  },
+  {
+    "order_id": 698,
+    "distance_km": 13.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 67.0
+  },
+  {
+    "order_id": 699,
+    "distance_km": 5.94,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 70.37
+  },
+  {
+    "order_id": 700,
+    "distance_km": 13.35,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 72.42
+  },
+  {
+    "order_id": 701,
+    "distance_km": 4.93,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 41.63
+  },
+  {
+    "order_id": 702,
+    "distance_km": 12.44,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 78.94
+  },
+  {
+    "order_id": 703,
+    "distance_km": 10.45,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 69.13
+  },
+  {
+    "order_id": 704,
+    "distance_km": 1.31,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 22.66
+  },
+  {
+    "order_id": 705,
+    "distance_km": 1.55,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 28.14
+  },
+  {
+    "order_id": 706,
+    "distance_km": 8.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 60.72
+  },
+  {
+    "order_id": 707,
+    "distance_km": 9.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 78.72
+  },
+  {
+    "order_id": 708,
+    "distance_km": 9.41,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 59.08
+  },
+  {
+    "order_id": 709,
+    "distance_km": 13.91,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 63.67
+  },
+  {
+    "order_id": 710,
+    "distance_km": 1.23,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 42.0
+  },
+  {
+    "order_id": 711,
+    "distance_km": 9.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 40.5
+  },
+  {
+    "order_id": 712,
+    "distance_km": 13.63,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 74.2
+  },
+  {
+    "order_id": 713,
+    "distance_km": 10.77,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 77.73
+  },
+  {
+    "order_id": 714,
+    "distance_km": 5.91,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 45.71
+  },
+  {
+    "order_id": 715,
+    "distance_km": 4.26,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 42.72
+  },
+  {
+    "order_id": 716,
+    "distance_km": 10.93,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 43.79
+  },
+  {
+    "order_id": 717,
+    "distance_km": 10.63,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 79.54
+  },
+  {
+    "order_id": 718,
+    "distance_km": 10.12,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 72.9
+  },
+  {
+    "order_id": 719,
+    "distance_km": 4.86,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.0
+  },
+  {
+    "order_id": 720,
+    "distance_km": 7.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 76.61
+  },
+  {
+    "order_id": 721,
+    "distance_km": 11.84,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 67.79
+  },
+  {
+    "order_id": 722,
+    "distance_km": 11.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 55.6
+  },
+  {
+    "order_id": 723,
+    "distance_km": 5.74,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 39.87
+  },
+  {
+    "order_id": 724,
+    "distance_km": 2.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.39
+  },
+  {
+    "order_id": 725,
+    "distance_km": 4.1,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 31.59
+  },
+  {
+    "order_id": 726,
+    "distance_km": 8.29,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 46.26
+  },
+  {
+    "order_id": 727,
+    "distance_km": 12.91,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 69.57
+  },
+  {
+    "order_id": 728,
+    "distance_km": 8.22,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 48.77
+  },
+  {
+    "order_id": 729,
+    "distance_km": 1.0,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 36.2
+  },
+  {
+    "order_id": 730,
+    "distance_km": 10.38,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 68.56
+  },
+  {
+    "order_id": 731,
+    "distance_km": 13.87,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 85.0
+  },
+  {
+    "order_id": 732,
+    "distance_km": 9.49,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 74.24
+  },
+  {
+    "order_id": 733,
+    "distance_km": 3.45,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 33.97
+  },
+  {
+    "order_id": 734,
+    "distance_km": 12.24,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 78.79
+  },
+  {
+    "order_id": 735,
+    "distance_km": 11.78,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 87.54
+  },
+  {
+    "order_id": 736,
+    "distance_km": 7.75,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 59.24
+  },
+  {
+    "order_id": 737,
+    "distance_km": 4.09,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 56.27
+  },
+  {
+    "order_id": 738,
+    "distance_km": 1.14,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 47.55
+  },
+  {
+    "order_id": 739,
+    "distance_km": 11.48,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 59.14
+  },
+  {
+    "order_id": 740,
+    "distance_km": 4.06,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 44.86
+  },
+  {
+    "order_id": 741,
+    "distance_km": 4.29,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 44.83
+  },
+  {
+    "order_id": 742,
+    "distance_km": 4.5,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 46.51
+  },
+  {
+    "order_id": 743,
+    "distance_km": 10.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 59.1
+  },
+  {
+    "order_id": 744,
+    "distance_km": 9.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 78.68
+  },
+  {
+    "order_id": 745,
+    "distance_km": 13.82,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 80.78
+  },
+  {
+    "order_id": 746,
+    "distance_km": 1.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 57.94
+  },
+  {
+    "order_id": 747,
+    "distance_km": 13.05,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 76.68
+  },
+  {
+    "order_id": 748,
+    "distance_km": 5.42,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 26.79
+  },
+  {
+    "order_id": 749,
+    "distance_km": 5.56,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 55.21
+  },
+  {
+    "order_id": 750,
+    "distance_km": 14.42,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 78.82
+  },
+  {
+    "order_id": 751,
+    "distance_km": 6.87,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 68.03
+  },
+  {
+    "order_id": 752,
+    "distance_km": 9.0,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 55.71
+  },
+  {
+    "order_id": 753,
+    "distance_km": 7.05,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 61.0
+  },
+  {
+    "order_id": 754,
+    "distance_km": 3.09,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 33.63
+  },
+  {
+    "order_id": 755,
+    "distance_km": 13.51,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 90.96
+  },
+  {
+    "order_id": 756,
+    "distance_km": 8.95,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 57.52
+  },
+  {
+    "order_id": 757,
+    "distance_km": 4.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 52.98
+  },
+  {
+    "order_id": 758,
+    "distance_km": 8.84,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 63.96
+  },
+  {
+    "order_id": 759,
+    "distance_km": 13.14,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 69.33
+  },
+  {
+    "order_id": 760,
+    "distance_km": 8.15,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.73
+  },
+  {
+    "order_id": 761,
+    "distance_km": 9.84,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.99
+  },
+  {
+    "order_id": 762,
+    "distance_km": 9.0,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 37.68
+  },
+  {
+    "order_id": 763,
+    "distance_km": 5.44,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.76
+  },
+  {
+    "order_id": 764,
+    "distance_km": 11.93,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 85.88
+  },
+  {
+    "order_id": 765,
+    "distance_km": 1.32,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 37.3
+  },
+  {
+    "order_id": 766,
+    "distance_km": 2.44,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.91
+  },
+  {
+    "order_id": 767,
+    "distance_km": 8.34,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 43.82
+  },
+  {
+    "order_id": 768,
+    "distance_km": 10.17,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 71.14
+  },
+  {
+    "order_id": 769,
+    "distance_km": 7.2,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 45.61
+  },
+  {
+    "order_id": 770,
+    "distance_km": 6.0,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.12
+  },
+  {
+    "order_id": 771,
+    "distance_km": 4.81,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.32
+  },
+  {
+    "order_id": 772,
+    "distance_km": 9.83,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 77.69
+  },
+  {
+    "order_id": 773,
+    "distance_km": 12.27,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 82.95
+  },
+  {
+    "order_id": 774,
+    "distance_km": 5.25,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 40.03
+  },
+  {
+    "order_id": 775,
+    "distance_km": 1.12,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 65.6
+  },
+  {
+    "order_id": 776,
+    "distance_km": 12.17,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 61.16
+  },
+  {
+    "order_id": 777,
+    "distance_km": 8.85,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 64.84
+  },
+  {
+    "order_id": 778,
+    "distance_km": 6.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 65.92
+  },
+  {
+    "order_id": 779,
+    "distance_km": 4.35,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 57.94
+  },
+  {
+    "order_id": 780,
+    "distance_km": 1.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 39.77
+  },
+  {
+    "order_id": 781,
+    "distance_km": 7.34,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 67.31
+  },
+  {
+    "order_id": 782,
+    "distance_km": 14.58,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 54.76
+  },
+  {
+    "order_id": 783,
+    "distance_km": 11.01,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 48.07
+  },
+  {
+    "order_id": 784,
+    "distance_km": 4.04,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 62.99
+  },
+  {
+    "order_id": 785,
+    "distance_km": 12.08,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 60.5
+  },
+  {
+    "order_id": 786,
+    "distance_km": 6.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 54.48
+  },
+  {
+    "order_id": 787,
+    "distance_km": 6.34,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 32.66
+  },
+  {
+    "order_id": 788,
+    "distance_km": 7.2,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 48.81
+  },
+  {
+    "order_id": 789,
+    "distance_km": 8.3,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 74.13
+  },
+  {
+    "order_id": 790,
+    "distance_km": 14.11,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 58.22
+  },
+  {
+    "order_id": 791,
+    "distance_km": 5.18,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 40.16
+  },
+  {
+    "order_id": 792,
+    "distance_km": 7.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 43.56
+  },
+  {
+    "order_id": 793,
+    "distance_km": 12.05,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 51.41
+  },
+  {
+    "order_id": 794,
+    "distance_km": 6.2,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 36.27
+  },
+  {
+    "order_id": 795,
+    "distance_km": 9.66,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 44.11
+  },
+  {
+    "order_id": 796,
+    "distance_km": 8.51,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 47.73
+  },
+  {
+    "order_id": 797,
+    "distance_km": 8.82,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 71.62
+  },
+  {
+    "order_id": 798,
+    "distance_km": 6.01,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 50.64
+  },
+  {
+    "order_id": 799,
+    "distance_km": 8.83,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.62
+  },
+  {
+    "order_id": 800,
+    "distance_km": 11.25,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 61.09
+  },
+  {
+    "order_id": 801,
+    "distance_km": 5.14,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 64.68
+  },
+  {
+    "order_id": 802,
+    "distance_km": 8.08,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 51.56
+  },
+  {
+    "order_id": 803,
+    "distance_km": 5.49,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 45.27
+  },
+  {
+    "order_id": 804,
+    "distance_km": 11.72,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 72.72
+  },
+  {
+    "order_id": 805,
+    "distance_km": 2.55,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 20.5
+  },
+  {
+    "order_id": 806,
+    "distance_km": 3.83,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 51.79
+  },
+  {
+    "order_id": 807,
+    "distance_km": 12.71,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 75.94
+  },
+  {
+    "order_id": 808,
+    "distance_km": 11.05,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 56.36
+  },
+  {
+    "order_id": 809,
+    "distance_km": 12.21,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 66.13
+  },
+  {
+    "order_id": 810,
+    "distance_km": 10.92,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 54.71
+  },
+  {
+    "order_id": 811,
+    "distance_km": 14.22,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.21
+  },
+  {
+    "order_id": 812,
+    "distance_km": 3.7,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 45.07
+  },
+  {
+    "order_id": 813,
+    "distance_km": 9.94,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 80.85
+  },
+  {
+    "order_id": 814,
+    "distance_km": 3.53,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 58.32
+  },
+  {
+    "order_id": 815,
+    "distance_km": 7.2,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 68.62
+  },
+  {
+    "order_id": 816,
+    "distance_km": 11.7,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 77.39
+  },
+  {
+    "order_id": 817,
+    "distance_km": 6.25,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 68.0
+  },
+  {
+    "order_id": 818,
+    "distance_km": 1.0,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 26.41
+  },
+  {
+    "order_id": 819,
+    "distance_km": 13.46,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 59.72
+  },
+  {
+    "order_id": 820,
+    "distance_km": 1.3,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 37.13
+  },
+  {
+    "order_id": 821,
+    "distance_km": 3.19,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 50.24
+  },
+  {
+    "order_id": 822,
+    "distance_km": 5.2,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 54.47
+  },
+  {
+    "order_id": 823,
+    "distance_km": 7.76,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 64.09
+  },
+  {
+    "order_id": 824,
+    "distance_km": 9.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 44.81
+  },
+  {
+    "order_id": 825,
+    "distance_km": 7.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 40.53
+  },
+  {
+    "order_id": 826,
+    "distance_km": 6.35,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 52.07
+  },
+  {
+    "order_id": 827,
+    "distance_km": 5.58,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 43.64
+  },
+  {
+    "order_id": 828,
+    "distance_km": 6.5,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 51.62
+  },
+  {
+    "order_id": 829,
+    "distance_km": 6.52,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 54.51
+  },
+  {
+    "order_id": 830,
+    "distance_km": 1.69,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 49.23
+  },
+  {
+    "order_id": 831,
+    "distance_km": 11.83,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 65.67
+  },
+  {
+    "order_id": 832,
+    "distance_km": 6.53,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 47.62
+  },
+  {
+    "order_id": 833,
+    "distance_km": 7.02,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 41.15
+  },
+  {
+    "order_id": 834,
+    "distance_km": 3.67,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 46.64
+  },
+  {
+    "order_id": 835,
+    "distance_km": 9.63,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 72.35
+  },
+  {
+    "order_id": 836,
+    "distance_km": 4.27,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 45.39
+  },
+  {
+    "order_id": 837,
+    "distance_km": 4.4,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 46.58
+  },
+  {
+    "order_id": 838,
+    "distance_km": 2.56,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 59.53
+  },
+  {
+    "order_id": 839,
+    "distance_km": 8.53,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 65.01
+  },
+  {
+    "order_id": 840,
+    "distance_km": 2.98,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 37.46
+  },
+  {
+    "order_id": 841,
+    "distance_km": 4.98,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 49.79
+  },
+  {
+    "order_id": 842,
+    "distance_km": 1.93,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 47.2
+  },
+  {
+    "order_id": 843,
+    "distance_km": 13.37,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 84.85
+  },
+  {
+    "order_id": 844,
+    "distance_km": 2.39,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 54.07
+  },
+  {
+    "order_id": 845,
+    "distance_km": 14.54,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 48.76
+  },
+  {
+    "order_id": 846,
+    "distance_km": 7.86,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 50.21
+  },
+  {
+    "order_id": 847,
+    "distance_km": 9.75,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 58.65
+  },
+  {
+    "order_id": 848,
+    "distance_km": 6.42,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 40.58
+  },
+  {
+    "order_id": 849,
+    "distance_km": 6.5,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 51.63
+  },
+  {
+    "order_id": 850,
+    "distance_km": 9.57,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 63.88
+  },
+  {
+    "order_id": 851,
+    "distance_km": 14.59,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 85.93
+  },
+  {
+    "order_id": 852,
+    "distance_km": 9.13,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 60.44
+  },
+  {
+    "order_id": 853,
+    "distance_km": 8.33,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 63.12
+  },
+  {
+    "order_id": 854,
+    "distance_km": 13.84,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 65.05
+  },
+  {
+    "order_id": 855,
+    "distance_km": 13.31,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 68.69
+  },
+  {
+    "order_id": 856,
+    "distance_km": 11.44,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 61.49
+  },
+  {
+    "order_id": 857,
+    "distance_km": 1.37,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 40.99
+  },
+  {
+    "order_id": 858,
+    "distance_km": 6.03,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 62.52
+  },
+  {
+    "order_id": 859,
+    "distance_km": 3.58,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 69.94
+  },
+  {
+    "order_id": 860,
+    "distance_km": 4.17,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 50.59
+  },
+  {
+    "order_id": 861,
+    "distance_km": 10.4,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 59.28
+  },
+  {
+    "order_id": 862,
+    "distance_km": 14.8,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 92.78
+  },
+  {
+    "order_id": 863,
+    "distance_km": 11.87,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 86.99
+  },
+  {
+    "order_id": 864,
+    "distance_km": 9.01,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 47.51
+  },
+  {
+    "order_id": 865,
+    "distance_km": 1.59,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 44.64
+  },
+  {
+    "order_id": 866,
+    "distance_km": 11.71,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 58.97
+  },
+  {
+    "order_id": 867,
+    "distance_km": 5.26,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 61.53
+  },
+  {
+    "order_id": 868,
+    "distance_km": 13.87,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 87.34
+  },
+  {
+    "order_id": 869,
+    "distance_km": 2.58,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 55.3
+  },
+  {
+    "order_id": 870,
+    "distance_km": 3.5,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 52.22
+  },
+  {
+    "order_id": 871,
+    "distance_km": 10.08,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 51.82
+  },
+  {
+    "order_id": 872,
+    "distance_km": 9.88,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 55.85
+  },
+  {
+    "order_id": 873,
+    "distance_km": 1.61,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 43.13
+  },
+  {
+    "order_id": 874,
+    "distance_km": 3.5,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 48.44
+  },
+  {
+    "order_id": 875,
+    "distance_km": 14.45,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 71.51
+  },
+  {
+    "order_id": 876,
+    "distance_km": 1.05,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 39.69
+  },
+  {
+    "order_id": 877,
+    "distance_km": 8.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 55.79
+  },
+  {
+    "order_id": 878,
+    "distance_km": 7.66,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 73.45
+  },
+  {
+    "order_id": 879,
+    "distance_km": 4.43,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 47.02
+  },
+  {
+    "order_id": 880,
+    "distance_km": 10.15,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 44.61
+  },
+  {
+    "order_id": 881,
+    "distance_km": 9.45,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 54.38
+  },
+  {
+    "order_id": 882,
+    "distance_km": 3.5,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 50.99
+  },
+  {
+    "order_id": 883,
+    "distance_km": 14.04,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 69.29
+  },
+  {
+    "order_id": 884,
+    "distance_km": 12.48,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 74.1
+  },
+  {
+    "order_id": 885,
+    "distance_km": 10.72,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 76.93
+  },
+  {
+    "order_id": 886,
+    "distance_km": 3.93,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 26.5
+  },
+  {
+    "order_id": 887,
+    "distance_km": 9.47,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 77.75
+  },
+  {
+    "order_id": 888,
+    "distance_km": 14.93,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 80.01
+  },
+  {
+    "order_id": 889,
+    "distance_km": 7.97,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 58.43
+  },
+  {
+    "order_id": 890,
+    "distance_km": 1.34,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 31.99
+  },
+  {
+    "order_id": 891,
+    "distance_km": 5.9,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 37.09
+  },
+  {
+    "order_id": 892,
+    "distance_km": 12.06,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 76.67
+  },
+  {
+    "order_id": 893,
+    "distance_km": 10.6,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 71.53
+  },
+  {
+    "order_id": 894,
+    "distance_km": 5.63,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 69.68
+  },
+  {
+    "order_id": 895,
+    "distance_km": 2.9,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 60.1
+  },
+  {
+    "order_id": 896,
+    "distance_km": 6.8,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 50.11
+  },
+  {
+    "order_id": 897,
+    "distance_km": 3.92,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 52.14
+  },
+  {
+    "order_id": 898,
+    "distance_km": 1.44,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 50.89
+  },
+  {
+    "order_id": 899,
+    "distance_km": 13.1,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 75.49
+  },
+  {
+    "order_id": 900,
+    "distance_km": 7.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.25
+  },
+  {
+    "order_id": 901,
+    "distance_km": 4.03,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 44.93
+  },
+  {
+    "order_id": 902,
+    "distance_km": 11.89,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 63.67
+  },
+  {
+    "order_id": 903,
+    "distance_km": 8.0,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 67.12
+  },
+  {
+    "order_id": 904,
+    "distance_km": 5.35,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 48.82
+  },
+  {
+    "order_id": 905,
+    "distance_km": 8.23,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 52.24
+  },
+  {
+    "order_id": 906,
+    "distance_km": 13.11,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 54.34
+  },
+  {
+    "order_id": 907,
+    "distance_km": 9.32,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 58.11
+  },
+  {
+    "order_id": 908,
+    "distance_km": 11.73,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 66.5
+  },
+  {
+    "order_id": 909,
+    "distance_km": 5.49,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 56.18
+  },
+  {
+    "order_id": 910,
+    "distance_km": 7.18,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 42.27
+  },
+  {
+    "order_id": 911,
+    "distance_km": 1.21,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 32.48
+  },
+  {
+    "order_id": 912,
+    "distance_km": 2.98,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 43.88
+  },
+  {
+    "order_id": 913,
+    "distance_km": 13.49,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 66.64
+  },
+  {
+    "order_id": 914,
+    "distance_km": 10.46,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.93
+  },
+  {
+    "order_id": 915,
+    "distance_km": 3.51,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 65.73
+  },
+  {
+    "order_id": 916,
+    "distance_km": 10.98,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 62.39
+  },
+  {
+    "order_id": 917,
+    "distance_km": 13.88,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 79.25
+  },
+  {
+    "order_id": 918,
+    "distance_km": 10.94,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 80.28
+  },
+  {
+    "order_id": 919,
+    "distance_km": 13.54,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 85.45
+  },
+  {
+    "order_id": 920,
+    "distance_km": 10.31,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 81.47
+  },
+  {
+    "order_id": 921,
+    "distance_km": 2.58,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 61.25
+  },
+  {
+    "order_id": 922,
+    "distance_km": 9.46,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 58.29
+  },
+  {
+    "order_id": 923,
+    "distance_km": 2.5,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 39.52
+  },
+  {
+    "order_id": 924,
+    "distance_km": 4.34,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 46.55
+  },
+  {
+    "order_id": 925,
+    "distance_km": 3.92,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 69.38
+  },
+  {
+    "order_id": 926,
+    "distance_km": 3.42,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 42.84
+  },
+  {
+    "order_id": 927,
+    "distance_km": 5.56,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 49.27
+  },
+  {
+    "order_id": 928,
+    "distance_km": 1.97,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 44.36
+  },
+  {
+    "order_id": 929,
+    "distance_km": 1.86,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 32.59
+  },
+  {
+    "order_id": 930,
+    "distance_km": 3.09,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 60.84
+  },
+  {
+    "order_id": 931,
+    "distance_km": 13.28,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 82.65
+  },
+  {
+    "order_id": 932,
+    "distance_km": 5.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 34.43
+  },
+  {
+    "order_id": 933,
+    "distance_km": 5.12,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 40.98
+  },
+  {
+    "order_id": 934,
+    "distance_km": 14.7,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 61.55
+  },
+  {
+    "order_id": 935,
+    "distance_km": 9.26,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 76.96
+  },
+  {
+    "order_id": 936,
+    "distance_km": 3.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 54.07
+  },
+  {
+    "order_id": 937,
+    "distance_km": 12.81,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 79.52
+  },
+  {
+    "order_id": 938,
+    "distance_km": 10.38,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 47.5
+  },
+  {
+    "order_id": 939,
+    "distance_km": 11.1,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 77.66
+  },
+  {
+    "order_id": 940,
+    "distance_km": 12.28,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 81.73
+  },
+  {
+    "order_id": 941,
+    "distance_km": 8.73,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 79.88
+  },
+  {
+    "order_id": 942,
+    "distance_km": 9.46,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 74.93
+  },
+  {
+    "order_id": 943,
+    "distance_km": 9.07,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 43.28
+  },
+  {
+    "order_id": 944,
+    "distance_km": 9.12,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 49.85
+  },
+  {
+    "order_id": 945,
+    "distance_km": 8.33,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 51.55
+  },
+  {
+    "order_id": 946,
+    "distance_km": 14.45,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 61.23
+  },
+  {
+    "order_id": 947,
+    "distance_km": 1.15,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 64.43
+  },
+  {
+    "order_id": 948,
+    "distance_km": 14.69,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 77.31
+  },
+  {
+    "order_id": 949,
+    "distance_km": 9.37,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 63.34
+  },
+  {
+    "order_id": 950,
+    "distance_km": 3.37,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 33.38
+  },
+  {
+    "order_id": 951,
+    "distance_km": 2.78,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 1,
+    "delivery_time_minutes": 40.3
+  },
+  {
+    "order_id": 952,
+    "distance_km": 4.85,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 39.15
+  },
+  {
+    "order_id": 953,
+    "distance_km": 9.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 74.23
+  },
+  {
+    "order_id": 954,
+    "distance_km": 11.96,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 73.98
+  },
+  {
+    "order_id": 955,
+    "distance_km": 1.46,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 22.64
+  },
+  {
+    "order_id": 956,
+    "distance_km": 14.91,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 87.69
+  },
+  {
+    "order_id": 957,
+    "distance_km": 3.95,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 46.83
+  },
+  {
+    "order_id": 958,
+    "distance_km": 1.74,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 63.28
+  },
+  {
+    "order_id": 959,
+    "distance_km": 14.28,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 83.99
+  },
+  {
+    "order_id": 960,
+    "distance_km": 8.43,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 61.92
+  },
+  {
+    "order_id": 961,
+    "distance_km": 10.5,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 50.05
+  },
+  {
+    "order_id": 962,
+    "distance_km": 13.85,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 86.53
+  },
+  {
+    "order_id": 963,
+    "distance_km": 4.57,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 65.94
+  },
+  {
+    "order_id": 964,
+    "distance_km": 11.79,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 70.01
+  },
+  {
+    "order_id": 965,
+    "distance_km": 1.12,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 23.88
+  },
+  {
+    "order_id": 966,
+    "distance_km": 10.6,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 70.58
+  },
+  {
+    "order_id": 967,
+    "distance_km": 1.33,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 16.74
+  },
+  {
+    "order_id": 968,
+    "distance_km": 10.91,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 43.74
+  },
+  {
+    "order_id": 969,
+    "distance_km": 13.6,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 59.38
+  },
+  {
+    "order_id": 970,
+    "distance_km": 10.25,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 67.41
+  },
+  {
+    "order_id": 971,
+    "distance_km": 13.65,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 72.85
+  },
+  {
+    "order_id": 972,
+    "distance_km": 11.88,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 87.97
+  },
+  {
+    "order_id": 973,
+    "distance_km": 12.38,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 76.39
+  },
+  {
+    "order_id": 974,
+    "distance_km": 3.81,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 55.46
+  },
+  {
+    "order_id": 975,
+    "distance_km": 11.76,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 62.68
+  },
+  {
+    "order_id": 976,
+    "distance_km": 1.49,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 37.91
+  },
+  {
+    "order_id": 977,
+    "distance_km": 3.08,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 27.65
+  },
+  {
+    "order_id": 978,
+    "distance_km": 5.62,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 3,
+    "delivery_time_minutes": 54.86
+  },
+  {
+    "order_id": 979,
+    "distance_km": 12.82,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 55.41
+  },
+  {
+    "order_id": 980,
+    "distance_km": 12.45,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 1,
+    "day_of_week": 2,
+    "delivery_time_minutes": 75.67
+  },
+  {
+    "order_id": 981,
+    "distance_km": 6.61,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 53.55
+  },
+  {
+    "order_id": 982,
+    "distance_km": 11.65,
+    "weather_delay_minutes": 15.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 64.74
+  },
+  {
+    "order_id": 983,
+    "distance_km": 6.38,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 59.34
+  },
+  {
+    "order_id": 984,
+    "distance_km": 6.03,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 47.68
+  },
+  {
+    "order_id": 985,
+    "distance_km": 1.36,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 56.28
+  },
+  {
+    "order_id": 986,
+    "distance_km": 10.01,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 78.54
+  },
+  {
+    "order_id": 987,
+    "distance_km": 5.73,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 7,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 46.25
+  },
+  {
+    "order_id": 988,
+    "distance_km": 10.34,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 63.46
+  },
+  {
+    "order_id": 989,
+    "distance_km": 2.98,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 8,
+    "is_rush_hour": 0,
+    "day_of_week": 1,
+    "delivery_time_minutes": 42.05
+  },
+  {
+    "order_id": 990,
+    "distance_km": 2.83,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 6,
+    "delivery_time_minutes": 38.96
+  },
+  {
+    "order_id": 991,
+    "distance_km": 7.39,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 0,
+    "delivery_time_minutes": 44.47
+  },
+  {
+    "order_id": 992,
+    "distance_km": 12.19,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 2,
+    "is_rush_hour": 0,
+    "day_of_week": 3,
+    "delivery_time_minutes": 55.99
+  },
+  {
+    "order_id": 993,
+    "distance_km": 12.7,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 6,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 79.98
+  },
+  {
+    "order_id": 994,
+    "distance_km": 2.92,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 0,
+    "day_of_week": 2,
+    "delivery_time_minutes": 28.99
+  },
+  {
+    "order_id": 995,
+    "distance_km": 4.83,
+    "weather_delay_minutes": 20.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 1,
+    "day_of_week": 4,
+    "delivery_time_minutes": 58.07
+  },
+  {
+    "order_id": 996,
+    "distance_km": 4.41,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 6,
+    "delivery_time_minutes": 31.07
+  },
+  {
+    "order_id": 997,
+    "distance_km": 9.57,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 1,
+    "is_rush_hour": 1,
+    "day_of_week": 0,
+    "delivery_time_minutes": 53.44
+  },
+  {
+    "order_id": 998,
+    "distance_km": 3.51,
+    "weather_delay_minutes": 0.0,
+    "num_pizzas": 5,
+    "is_rush_hour": 1,
+    "day_of_week": 5,
+    "delivery_time_minutes": 42.7
+  },
+  {
+    "order_id": 999,
+    "distance_km": 11.82,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 4,
+    "is_rush_hour": 0,
+    "day_of_week": 5,
+    "delivery_time_minutes": 60.86
+  },
+  {
+    "order_id": 1000,
+    "distance_km": 7.31,
+    "weather_delay_minutes": 10.0,
+    "num_pizzas": 3,
+    "is_rush_hour": 0,
+    "day_of_week": 4,
+    "delivery_time_minutes": 46.32
+  }
+]
