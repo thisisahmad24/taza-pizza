@@ -69,7 +69,6 @@ export default function OrderTracker() {
               {STEPS.map((step, idx) => {
                 const Icon = step.icon;
                 const isActive = idx <= currentStep;
-                const isPending = idx > currentStep;
                 
                 return (
                   <div key={idx} className="flex gap-4 relative z-10">
