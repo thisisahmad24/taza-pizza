@@ -10,6 +10,7 @@ import Checkout from "./pages/Checkout"
 import Login from "./pages/Login"
 import Profile from "./pages/Profile"
 import OrderTracker from "./pages/OrderTracker"
+import Menu from "./pages/Menu"
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/30">
@@ -17,6 +18,7 @@ function App() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/lab" element={<PizzaLab />} />
           <Route path="/roots" element={<OurRoots />} />
           <Route path="/find-us" element={<FindUs />} />

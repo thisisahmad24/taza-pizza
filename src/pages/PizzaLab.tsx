@@ -1,9 +1,8 @@
 import { useState } from "react"
-import { motion } from "framer-motion"
-import { Sparkles, Loader2, Pizza as PizzaIcon, Plus } from "lucide-react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Sparkles, Loader2, Pizza as PizzaIcon, BrainCircuit } from "lucide-react"
 import { generateCustomPizza, type CustomPizza } from "../services/ai"
 import { useOrderStore } from "../store/orderStore"
-
 import { toast } from "sonner"
 
 export default function PizzaLab() {
@@ -14,10 +13,9 @@ export default function PizzaLab() {
   
   const { addToCart } = useOrderStore()
 
-
   const handleGenerate = async () => {
     if (!preferences.trim()) {
-      setError("Please enter some preferences first!")
+      setError("Please enter your flavor cravings first!")
       return
     }
 
@@ -29,7 +27,7 @@ export default function PizzaLab() {
       const pizza = await generateCustomPizza(preferences)
       setGeneratedPizza(pizza)
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Something went wrong")
+      setError(err instanceof Error ? err.message : "The AI Chef encountered an error.")
     } finally {
       setIsGenerating(false)
     }
@@ -41,135 +39,168 @@ export default function PizzaLab() {
         name: generatedPizza.name,
         price: generatedPizza.price
       })
-      toast.success(`${generatedPizza.name} added to cart!`)
+      toast.success(`${generatedPizza.name} added to your cart!`, {
+        icon: '🍕'
+      })
       setGeneratedPizza(null)
       setPreferences("")
     }
   }
 
-  const handleOrderClassic = (item: {name: string, price: number}) => {
-    addToCart(item)
-    toast.success(`${item.name} added to cart!`)
-  }
-
   return (
-    <div className="container mx-auto px-4 py-12 md:py-24">
-      <h1 className="text-4xl md:text-5xl font-heading font-bold text-center mb-8">
-        The <span className="text-primary">Pizza Lab</span>
-      </h1>
-      <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-16 text-lg">
-        Welcome to the lab! Here you can order from our handcrafted menu or use our AI to create a unique flavor profile just for you.
-      </p>
-      
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        {/* Classic Menu - Static for now */}
-        <div className="p-8 border rounded-3xl bg-card shadow-sm h-fit">
-          <h2 className="text-2xl font-bold font-heading mb-6">Classic Menu</h2>
-          <div className="space-y-6">
-            {[
-              { name: "Margherita Originale", desc: "San Marzano tomatoes, fresh mozzarella, basil, EVOO", price: 16.99 },
-              { name: "Diavola Spicy", desc: "Spicy salami, chili flakes, mozzarella, hot honey", price: 19.99 },
-              { name: "Truffle Mushroom", desc: "Wild mushrooms, truffle cream, fontina, thyme", price: 21.99 }
-            ].map(item => (
-              <div key={item.name} className="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b last:border-0 last:pb-0 gap-4">
-                <div className="flex-1">
-                  <h3 className="font-semibold text-lg">{item.name}</h3>
-                  <p className="text-sm text-muted-foreground">{item.desc}</p>
-                </div>
-                <div className="flex items-center gap-4 shrink-0">
-                  <div className="text-lg font-bold">${item.price}</div>
-                  <button 
-                    onClick={() => handleOrderClassic(item)}
-                    className="p-2 bg-secondary rounded-full hover:bg-primary hover:text-white transition-colors"
-                  >
-                    <Plus className="w-5 h-5" />
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+    <div className="min-h-screen bg-background pb-20 relative overflow-hidden">
+      {/* Background Decorative Elements */}
+      <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/20 rounded-full blur-[120px] pointer-events-none"></div>
+      <div className="absolute bottom-[-10%] right-[-10%] w-[30%] h-[30%] bg-secondary/30 rounded-full blur-[100px] pointer-events-none"></div>
 
-        {/* AI Feature */}
-        <div className="p-8 border-2 border-primary/20 rounded-3xl bg-gradient-to-br from-orange-50 to-red-50 dark:from-orange-950/20 dark:to-red-950/20 shadow-lg relative overflow-hidden flex flex-col h-full">
-          <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-4 py-1 rounded-bl-xl font-medium text-sm flex items-center gap-1">
-            <Sparkles className="w-4 h-4" /> AI Powered
+      {/* Hero Section */}
+      <section className="relative pt-24 pb-12 px-4 max-w-5xl mx-auto text-center z-10">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-bold tracking-wide text-sm mb-6 border border-primary/20">
+            <BrainCircuit className="w-5 h-5" />
+            Machine Learning Kitchen
           </div>
-          
-          <h2 className="text-2xl font-bold font-heading mb-2 text-primary">Create Your Own</h2>
-          <p className="mb-6 text-foreground/80">Tell our AI chef what flavors you love, and we'll craft a custom recipe.</p>
-          
-          {!generatedPizza ? (
-            <div className="space-y-4 flex-grow flex flex-col">
-              <textarea 
-                value={preferences}
-                onChange={(e) => setPreferences(e.target.value)}
-                className="w-full flex-grow min-h-[150px] p-4 rounded-xl border border-border bg-background focus:ring-2 focus:ring-primary focus:border-transparent outline-none resize-none transition-all shadow-inner"
-                placeholder="E.g., I love spicy food, garlic, and mushrooms, but no olives. Make it sound fancy!"
-                disabled={isGenerating}
-              />
-              {error && <p className="text-destructive text-sm font-medium">{error}</p>}
-              <button 
-                onClick={handleGenerate}
-                disabled={isGenerating}
-                className="w-full py-4 bg-primary text-white rounded-xl font-bold shadow-md hover:shadow-lg hover:bg-primary-dark transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-              >
-                {isGenerating ? (
-                  <>
-                    <Loader2 className="w-5 h-5 animate-spin" />
-                    Consulting the Chef...
-                  </>
-                ) : (
-                  <>
-                    <Sparkles className="w-5 h-5" />
-                    Generate Custom Pizza
-                  </>
-                )}
-              </button>
+          <h1 className="text-5xl md:text-7xl font-heading font-black mb-6 tracking-tight">
+            The <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Pizza Lab</span>
+          </h1>
+          <p className="text-xl text-foreground/70 max-w-2xl mx-auto leading-relaxed">
+            Welcome to the frontier of flavor. Let our trained Neural Network synthesize a completely unique recipe based on your wildest cravings.
+          </p>
+        </motion.div>
+      </section>
+      
+      <div className="container mx-auto px-4 max-w-4xl relative z-10 mt-8">
+        {/* AI Feature Workspace */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="h-full"
+        >
+          <div className="relative p-1 rounded-3xl bg-gradient-to-br from-primary/30 via-orange-400/20 to-transparent h-full shadow-2xl">
+            <div className="absolute top-0 right-0 p-6 z-20">
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-background/80 backdrop-blur border border-primary/20 text-xs font-bold text-primary shadow-sm">
+                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
+                AI SYSTEM ONLINE
+              </div>
             </div>
-          ) : (
-            <motion.div 
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="flex-grow flex flex-col bg-background/80 backdrop-blur-sm rounded-2xl p-6 border shadow-sm"
-            >
-              <div className="flex-grow">
-                <div className="flex items-start justify-between mb-2">
-                  <h3 className="text-2xl font-bold font-heading text-primary leading-tight">{generatedPizza.name}</h3>
-                  <span className="text-xl font-bold ml-4 shrink-0">${generatedPizza.price}</span>
-                </div>
-                <p className="text-muted-foreground italic mb-6">"{generatedPizza.description}"</p>
-                
-                <h4 className="font-semibold mb-2 flex items-center gap-2">
-                  <PizzaIcon className="w-4 h-4 text-orange-500" /> 
-                  Premium Ingredients:
-                </h4>
-                <ul className="grid grid-cols-2 gap-2 mb-6">
-                  {generatedPizza.ingredients.map((ing, i) => (
-                    <li key={i} className="text-sm bg-secondary px-3 py-1.5 rounded-md border text-center font-medium">
-                      {ing}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+
+            <div className="bg-card/90 backdrop-blur-2xl rounded-[23px] p-8 md:p-10 h-full flex flex-col relative overflow-hidden">
+              {/* Internal Decorative glow */}
+              <div className="absolute top-[-20%] right-[-10%] w-[50%] h-[50%] bg-primary/10 rounded-full blur-[80px] pointer-events-none"></div>
+
+              <h2 className="text-3xl font-bold font-heading mb-3 text-transparent bg-clip-text bg-gradient-to-r from-foreground to-foreground/70">
+                Synthesize Custom Pizza
+              </h2>
+              <p className="mb-8 text-foreground/60 text-lg">Input your desired flavor profile, dietary constraints, or crazy cravings. The AI will engineer a masterpiece.</p>
               
-              <div className="grid grid-cols-2 gap-3 mt-auto">
-                <button 
-                  onClick={() => setGeneratedPizza(null)}
-                  className="py-3 border border-input bg-background rounded-xl font-semibold hover:bg-accent hover:text-accent-foreground transition-colors"
-                >
-                  Try Again
-                </button>
-                <button 
-                  onClick={handleOrderCustom}
-                  className="py-3 bg-primary text-white rounded-xl font-bold shadow-md hover:bg-primary-dark transition-colors"
-                >
-                  Order This
-                </button>
-              </div>
-            </motion.div>
-          )}
-        </div>
+              <AnimatePresence mode="wait">
+                {!generatedPizza ? (
+                  <motion.div 
+                    key="input-form"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    className="flex-grow flex flex-col"
+                  >
+                    <div className="relative flex-grow mb-6">
+                      <textarea 
+                        value={preferences}
+                        onChange={(e) => setPreferences(e.target.value)}
+                        className="w-full h-full min-h-[200px] p-6 rounded-2xl border-2 border-border/50 bg-background/50 focus:bg-background focus:ring-4 focus:ring-primary/10 focus:border-primary outline-none resize-none transition-all text-lg placeholder:text-foreground/30 shadow-inner"
+                        placeholder="E.g., I want something extremely spicy with beef and jalapenos, but I also love sweet contrast like pineapple..."
+                        disabled={isGenerating}
+                      />
+                    </div>
+
+                    {error && (
+                      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-6 p-4 rounded-xl bg-destructive/10 border border-destructive/20 text-destructive font-medium flex items-center gap-2">
+                        <span className="text-xl">⚠️</span> {error}
+                      </motion.div>
+                    )}
+
+                    <button 
+                      onClick={handleGenerate}
+                      disabled={isGenerating}
+                      className="w-full py-5 bg-gradient-to-r from-primary to-orange-500 text-white rounded-2xl font-bold text-lg shadow-[0_0_20px_rgba(var(--color-primary),0.3)] hover:shadow-[0_0_30px_rgba(var(--color-primary),0.5)] transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-3 group relative overflow-hidden"
+                    >
+                      <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+                      {isGenerating ? (
+                        <>
+                          <Loader2 className="w-6 h-6 animate-spin" />
+                          <span className="tracking-wide">Synthesizing Recipe...</span>
+                        </>
+                      ) : (
+                        <>
+                          <Sparkles className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                          <span className="tracking-wide">Generate Masterpiece</span>
+                        </>
+                      )}
+                    </button>
+                  </motion.div>
+                ) : (
+                  <motion.div 
+                    key="result-card"
+                    initial={{ opacity: 0, scale: 0.9, y: 20 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    className="flex-grow flex flex-col bg-background rounded-3xl p-8 border-2 border-primary/20 shadow-2xl relative overflow-hidden"
+                  >
+                    <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary via-orange-400 to-primary"></div>
+                    
+                    <div className="flex-grow">
+                      <div className="inline-block px-3 py-1 bg-primary/10 text-primary font-bold text-xs rounded-full mb-4 uppercase tracking-wider">
+                        AI Synthesized Result
+                      </div>
+                      
+                      <div className="flex items-start justify-between mb-4 gap-4">
+                        <h3 className="text-3xl font-black font-heading leading-tight">{generatedPizza.name}</h3>
+                        <div className="text-2xl font-black text-primary shrink-0 bg-primary/5 px-4 py-2 rounded-xl">
+                          ${generatedPizza.price}
+                        </div>
+                      </div>
+                      
+                      <p className="text-foreground/70 italic mb-8 text-lg border-l-4 border-primary/30 pl-4 py-1">
+                        "{generatedPizza.description}"
+                      </p>
+                      
+                      <h4 className="font-bold mb-4 flex items-center gap-2 text-foreground/80 uppercase tracking-wide text-sm">
+                        <PizzaIcon className="w-4 h-4 text-primary" /> 
+                        Flavor Profile & Ingredients
+                      </h4>
+                      
+                      <div className="flex flex-wrap gap-2 mb-8">
+                        {generatedPizza.ingredients.map((ing, i) => (
+                          <span key={i} className="px-4 py-2 bg-secondary/50 text-secondary-foreground rounded-xl text-sm font-semibold border border-border/50">
+                            {ing}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+                      <button 
+                        onClick={() => setGeneratedPizza(null)}
+                        className="py-4 rounded-xl font-bold border-2 border-border hover:bg-muted transition-colors"
+                      >
+                        Discard & Restart
+                      </button>
+                      <button 
+                        onClick={handleOrderCustom}
+                        className="py-4 bg-primary text-white rounded-xl font-bold shadow-xl hover:shadow-primary/30 hover:-translate-y-1 transition-all"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </div>
   )
