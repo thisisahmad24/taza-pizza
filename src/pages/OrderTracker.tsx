@@ -27,9 +27,9 @@ export default function OrderTracker() {
   const [currentStep, setCurrentStep] = useState(0);
   const [progress, setProgress] = useState(0);
 
-  // Store coordinates (Lahore example)
-  const shopCoords: [number, number] = [31.5204, 74.3587];
-  const deliveryCoords: [number, number] = [31.5504, 74.3887];
+  // Store coordinates (New York example)
+  const shopCoords: [number, number] = [40.7128, -74.0060];
+  const deliveryCoords: [number, number] = [40.7306, -73.9866];
 
   useEffect(() => {
     // Simulate order progress
@@ -100,7 +100,7 @@ export default function OrderTracker() {
               <p className="font-bold">Delivery Address</p>
             </div>
             <p className="text-foreground/70 text-sm pl-8">
-              Model Town, Block H, Lahore, Pakistan
+              Manhattan, New York City, USA
             </p>
           </div>
         </div>

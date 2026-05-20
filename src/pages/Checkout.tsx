@@ -25,7 +25,7 @@ export default function Checkout() {
 
   useEffect(() => {
     async function fetchWeather() {
-      const weather = await getWeatherImpact("Lahore")
+      const weather = await getWeatherImpact("New York")
       setWeatherDelay(weather.delayMinutes)
       setWeatherCondition(weather.condition)
     }

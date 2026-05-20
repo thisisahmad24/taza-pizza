@@ -6,7 +6,7 @@ export interface WeatherData {
   delayMinutes: number
 }
 
-export async function getWeatherImpact(city: string = "Lahore"): Promise<WeatherData> {
+export async function getWeatherImpact(city: string = "New York"): Promise<WeatherData> {
   if (!WEATHER_API_KEY) {
     console.warn("No Weather API key, returning mock weather impact.")
     return { condition: "Clear", delayMinutes: 0 }

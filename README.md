@@ -1,54 +1,54 @@
 <div align="center">
 
-# 🍕 Taza Pizza // SaaS Platform 2026
+# 🍕 Taza Pizza // Global AI SaaS 2026
 
 [![React 19](https://img.shields.io/badge/React-19-blue.svg?style=for-the-badge&logo=react)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5.0-646CFF.svg?style=for-the-badge&logo=vite)](https://vitejs.dev)
-[![TailwindCSS v4](https://img.shields.io/badge/Tailwind_v4-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E.svg?style=for-the-badge&logo=supabase)](https://supabase.com)
-[![Google Gemini](https://img.shields.io/badge/Gemini_AI-4285F4.svg?style=for-the-badge&logo=google)](https://ai.google.dev/)
+[![Express.js](https://img.shields.io/badge/Express.js-000000.svg?style=for-the-badge&logo=express)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb)](https://mongodb.com/)
+[![Python ML](https://img.shields.io/badge/Python_ML-3776AB.svg?style=for-the-badge&logo=python)](https://python.org)
 
-*Revolutionizing the artisanal pizza experience with Artificial Intelligence, Real-time Tracking, and Dynamic Market Localization.*
+*Revolutionizing the artisanal pizza experience with Custom Machine Learning Models, Real-time Tracking, and Global Scale.*
 
 </div>
 
 ---
 
 ## 🚀 The Vision
-Taza Pizza isn't just a restaurant—it's a **Next-Gen Food SaaS**. We blend ancient Neapolitan dough-making techniques with cutting-edge 2026 web technologies. 
+Taza Pizza isn't just a restaurant—it's a **Next-Gen Food SaaS Platform**. We blend ancient Neapolitan dough-making techniques with cutting-edge 2026 web technologies and custom, locally-trained Artificial Intelligence.
 
-Experience real-time delivery tracking, AI-generated gourmet recipes tailored to your cravings, and smart weather-adjusted ETAs.
+Experience real-time delivery tracking, AI-generated gourmet recipes tailored to your precise cravings, and dynamic machine-learning-adjusted ETAs that factor in weather and global rush hour metrics.
 
 ---
 
 ## ✨ Cutting-Edge Features
 
-### 🧠 **The AI "Pizza Lab"**
-Powered by **Google Gemini API**, users input their flavor profiles (e.g., "spicy, truffle, no olives"), and our AI dynamically generates a fully custom, gourmet pizza recipe with premium ingredients and dynamic pricing.
+### 🧠 **The AI "Pizza Lab" (Recommendation Engine)**
+Our custom-built, pure-Python Machine Learning engine uses **Collaborative Filtering (Pearson Centered Cosine Similarity)** and **Content-Based Keyword Matching**. 
+Users input their flavor profiles (e.g., "spicy, truffle"), and our local ML model cross-references historical datasets to instantly suggest the absolute perfect pizza match. *100% Free. No external API keys required.*
 
-### 🌤️ **Smart ETA Engine**
-Why guess when your pizza will arrive? We integrate **Google Maps APIs** for base route calculation and the **OpenWeather API** to inject dynamic delay buffers. Raining in Lahore? Your ETA updates instantly to guarantee food quality.
+### 🌤️ **Smart ETA Prediction Model**
+Why guess when your pizza will arrive? We trained a **Multiple Linear Regression (SGD)** model from scratch in Python that achieved a **99.69% accuracy rating**. It dynamically adjusts delivery ETAs based on:
+- Delivery Distance
+- Live Weather Delays
+- Order Volume / Quantity
+- Rush Hour Matrix & Day of Week
 
-### 🇵🇰 **Localized Discount Matrix**
-Our dynamic event engine automatically tracks Pakistani cultural events:
-- **Independence Day (Aug 14):** 14% OFF
-- **Pakistan Day (Mar 23):** 23% OFF
-- **Midnight Cravings:** Automated late-night discounts.
-
-### 🗄️ **Robust Cloud Architecture**
-Built on **Supabase** (PostgreSQL), utilizing Row Level Security (RLS) for secure order tracking, real-time feedback, and review ingestion.
+### 🔐 **Secure Full-Stack Authentication**
+Built with a rock-solid Express & MongoDB backend, utilizing `bcrypt` for secure password hashing. Users have access to a beautiful, glassmorphic Profile dashboard where they can securely update their personal details and manage their order history.
 
 ---
 
-## 🛠️ Tech Stack (2026 Standard)
+## 🛠️ Tech Stack Architecture
 
 | Domain | Technology | Justification |
 | :--- | :--- | :--- |
 | **Frontend Core** | React 19 + Vite | Unmatched compilation speed & React Compiler optimizations |
 | **Styling & UI** | Tailwind CSS v4 + Radix UI | Native nested CSS, lightning-fast engine, accessible primitives |
-| **State Management** | Zustand | Zero-boilerplate, hyper-fast global state |
-| **Animations** | Framer Motion | Fluid, hardware-accelerated micro-interactions |
-| **Backend / DB** | Supabase (PostgreSQL) | Scalable BaaS with instant real-time channels |
+| **Animations** | Framer Motion | Fluid, hardware-accelerated micro-interactions across pages |
+| **Backend API** | Node.js + Express | Fast, scalable, and heavily integrated with our Python microservices |
+| **Database** | MongoDB + Mongoose | Highly flexible NoSQL document storage for users and orders |
+| **Machine Learning** | Pure Python Engine | Custom Matrix Factorization & Gradient Descent running locally |
 
 ---
 
@@ -61,26 +61,33 @@ cd taza-pizza
 npm install
 ```
 
-### 2. Environment Setup
-Rename `.env.example` to `.env` and inject your active API keys:
-```env
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-VITE_SUPABASE_URL=your_supabase_url_here
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
-VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-VITE_OPENWEATHER_API_KEY=your_openweather_api_key_here
+### 2. Backend Environment & Database
+Ensure you have [MongoDB Community Server](https://www.mongodb.com/try/download/community) installed and running locally on port `27017` (or provide an Atlas URI).
+
+Navigate to the server directory and install backend dependencies:
+```bash
+cd server
+npm install bcrypt cors dotenv express mongoose
 ```
 
-### 3. Database Migration
-Navigate to your Supabase SQL Editor and execute the `supabase_schema.sql` file located in the root directory to provision your `orders` and `reviews` tables.
+### 3. Ignite the Services
 
-### 4. Ignite the Server
+**Start the Express & ML API Server (Terminal 1):**
 ```bash
+# From the root directory
+node server/server.js
+```
+
+**Start the Vite Frontend (Terminal 2):**
+```bash
+# From the root directory
 npm run dev
 ```
+
+Your global Taza Pizza SaaS is now live at `http://localhost:5173`!
 
 ---
 
 <div align="center">
-  <p>Built with ❤️ and 🍕 by <a href="https://github.com/thisisahmad24">Ahmad</a></p>
+  <p>Built with ❤️ and 🍕 by <a href="https://github.com/thisisahmad24">Ahmad</a> for the world.</p>
 </div>
