@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { useOrderStore } from "../store/orderStore"
 import { getWeatherImpact, getRouteBaseTime } from "../services/delivery"
 import { getActiveDiscount, type DiscountEvent } from "../lib/discounts"
-import { MapPin, Clock, CloudRain, Loader2, ArrowRight, Tag } from "lucide-react"
+import { MapPin, Clock, CloudRain, Loader2, ArrowRight, Tag, Milestone } from "lucide-react"
 import { useNavigate } from "react-router-dom"
 import AuthModal from "../components/auth/AuthModal"
 
@@ -13,6 +13,8 @@ export default function Checkout() {
   const [weatherDelay, setWeatherDelay] = useState(0)
   const [weatherCondition, setWeatherCondition] = useState("Clear")
   const [baseTime, setBaseTime] = useState(0)
+  const [distance, setDistance] = useState(0)
+  const [coordinates, setCoordinates] = useState<{ lat: number; lng: number }>({ lat: 0, lng: 0 })
   const [activeDiscount, setActiveDiscount] = useState<DiscountEvent | null>(null)
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false)
   const navigate = useNavigate()
@@ -25,7 +27,8 @@ export default function Checkout() {
 
   useEffect(() => {
     async function fetchWeather() {
-      const weather = await getWeatherImpact("New York")
+      // Localized to Karachi weather impact
+      const weather = await getWeatherImpact("Karachi")
       setWeatherDelay(weather.delayMinutes)
       setWeatherCondition(weather.condition)
     }
@@ -36,9 +39,70 @@ export default function Checkout() {
   const handleCalculateRoute = async () => {
     if (address.length < 5) return
     setIsCalculating(true)
-    const time = await getRouteBaseTime(address)
-    setBaseTime(time)
-    setIsCalculating(false)
+    
+    try {
+      // 1. Geocode address using Nominatim (OpenStreetMap)
+      const geoUrl = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(address)}&format=json&limit=1`
+      const geoRes = await fetch(geoUrl, {
+        headers: {
+          'User-Agent': 'Taza-Pizza-SaaS'
+        }
+      })
+      
+      if (!geoRes.ok) throw new Error("Geocoding failed")
+      const geoData = await geoRes.json()
+      
+      if (geoData && geoData.length > 0) {
+        const lat = parseFloat(geoData[0].lat)
+        const lon = parseFloat(geoData[0].lon)
+        setCoordinates({ lat, lng: lon })
+        
+        // Shop location: Teen Talwar, Clifton, Karachi
+        const shopLat = 24.8302
+        const shopLng = 67.0345
+        
+        // 2. Route calculation with OSRM (OpenStreetMap Routing)
+        const routeUrl = `https://router.project-osrm.org/route/v1/driving/${shopLng},${shopLat};${lon},${lat}?overview=full&geometries=geojson`
+        const routeRes = await fetch(routeUrl)
+        
+        if (routeRes.ok) {
+          const routeData = await routeRes.json()
+          if (routeData.routes && routeData.routes.length > 0) {
+            const route = routeData.routes[0]
+            const durationMins = Math.max(5, Math.round(route.duration / 60))
+            const distKm = parseFloat((route.distance / 1000).toFixed(1))
+            
+            setBaseTime(durationMins)
+            setDistance(distKm)
+            setIsCalculating(false)
+            return
+          }
+        }
+      }
+      
+      // Fallback if APIs fail or returned no results
+      console.warn("Geocoding/Routing failed or empty results. Falling back to simulation.")
+      const time = await getRouteBaseTime(address)
+      setBaseTime(time)
+      setDistance(parseFloat((time * 0.6).toFixed(1)))
+      
+      // Default delivery coordinates: Clifton area, Karachi
+      setCoordinates({ 
+        lat: 24.8302 + (Math.random() - 0.5) * 0.04, 
+        lng: 67.0345 + (Math.random() - 0.5) * 0.04 
+      })
+    } catch (err) {
+      console.error("Geocoding/Routing error:", err)
+      const time = await getRouteBaseTime(address)
+      setBaseTime(time)
+      setDistance(parseFloat((time * 0.6).toFixed(1)))
+      setCoordinates({ 
+        lat: 24.8302 + (Math.random() - 0.5) * 0.04, 
+        lng: 67.0345 + (Math.random() - 0.5) * 0.04 
+      })
+    } finally {
+      setIsCalculating(false)
+    }
   }
 
   const handlePlaceOrder = async () => {
@@ -53,7 +117,15 @@ export default function Checkout() {
       return
     }
 
-    await placeOrder(weatherDelay, baseTime)
+    await placeOrder({
+      address,
+      latitude: coordinates.lat,
+      longitude: coordinates.lng,
+      weatherCondition,
+      weatherDelay,
+      baseTime,
+      totalPrice: finalPrice
+    })
     navigate('/tracker')
   }
 
@@ -79,7 +151,7 @@ export default function Checkout() {
               <input 
                 type="text" 
                 className="flex-grow p-3 rounded-lg border bg-background" 
-                placeholder="Enter your full address"
+                placeholder="Enter your address (e.g. Clifton, Karachi)"
                 value={address}
                 onChange={(e) => setAddress(e.target.value)}
               />
@@ -105,11 +177,19 @@ export default function Checkout() {
                   </div>
                   <span className="font-bold">15 mins</span>
                 </div>
+
+                <div className="flex justify-between items-center p-4 bg-muted/50 rounded-lg">
+                  <div className="flex items-center gap-3">
+                    <Milestone className="text-indigo-500 w-5 h-5" />
+                    <span className="font-medium">Calculated Route Distance</span>
+                  </div>
+                  <span className="font-bold">{distance} km</span>
+                </div>
                 
                 <div className="flex justify-between items-center p-4 bg-muted/50 rounded-lg">
                   <div className="flex items-center gap-3">
                     <MapPin className="text-blue-500" />
-                    <span className="font-medium">Leaflet Route Time</span>
+                    <span className="font-medium">Real-time Driving Time</span>
                   </div>
                   <span className="font-bold">{baseTime} mins</span>
                 </div>
@@ -153,7 +233,7 @@ export default function Checkout() {
               </div>
               
               {activeDiscount && (
-                <div className="flex justify-between items-center text-green-600 mb-4 p-3 bg-green-50 rounded-lg border border-green-100">
+                <div className="flex justify-between items-center text-green-600 mb-4 p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-100 dark:border-green-900/30">
                   <div className="flex flex-col">
                     <span className="font-bold flex items-center gap-1">
                       <Tag className="w-4 h-4" /> {activeDiscount.name} ({activeDiscount.discountPercentage}%)
@@ -185,6 +265,7 @@ export default function Checkout() {
         isOpen={isAuthModalOpen} 
         onClose={() => setIsAuthModalOpen(false)} 
         onSuccess={handlePlaceOrder} 
+        // fallback logic inside AuthModal handles storing 'user' inside localStorage
       />
     </div>
   )
