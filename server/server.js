@@ -45,6 +45,43 @@ app.post('/api/orders', async (req, res) => {
   }
 });
 
+// --- Admin Routes ---
+
+// Get All Orders (for Admin Dashboard)
+app.get('/api/admin/orders', async (req, res) => {
+  try {
+    // Sort by newest first
+    const orders = await Order.find().sort({ createdAt: -1 });
+    res.json(orders);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Update Order Status
+app.put('/api/admin/orders/:id', async (req, res) => {
+  try {
+    const { status } = req.body;
+    if (!status) {
+      return res.status(400).json({ error: 'Status is required.' });
+    }
+
+    const order = await Order.findByIdAndUpdate(
+      req.params.id,
+      { status },
+      { new: true }
+    );
+
+    if (!order) {
+      return res.status(404).json({ error: 'Order not found.' });
+    }
+
+    res.json(order);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // --- Auth Routes ---
 
 // Register
@@ -181,6 +218,33 @@ app.get('/api/predict/suggest', (req, res) => {
       res.status(500).json({ error: 'Failed to parse suggestion model output', stdout });
     }
   });
+});
+
+// --- Reviews Routes ---
+
+// Create Review/Feedback
+app.post('/api/reviews', async (req, res) => {
+  try {
+    const { userId, orderId, rating, comment } = req.body;
+    if (!orderId || !rating) {
+      return res.status(400).json({ error: 'Order ID and rating are required.' });
+    }
+    const newReview = new Review({ userId: userId || undefined, orderId, rating, comment });
+    const savedReview = await newReview.save();
+    res.status(201).json(savedReview);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Get Reviews
+app.get('/api/reviews', async (req, res) => {
+  try {
+    const reviews = await Review.find().populate('userId', 'name').sort({ createdAt: -1 });
+    res.json(reviews);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 app.listen(PORT, () => {
